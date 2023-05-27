@@ -1,0 +1,68 @@
+.home {
+  padding-top: 8rem;
+}
+
+.image {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+header ul li {
+  margin-bottom: 1rem;
+}
+
+.solid {
+  color: #885a5a;
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.each_service {
+  padding-top: 2rem;
+}
+
+.each_image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.each_image img {
+  width: 100%;
+}
+
+.bene {
+  display: flex;
+}
+
+.bene .image {
+  width: 7%;
+  margin-right: 10px;
+}
+
+.each_service p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin: 0.3rem 0;
+}
+
+.top {
+  align-items: center;
+  margin: 12px 0;
+}
+
+.top h4 {
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #885a5a;
+}
+
+.each_service .img {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+.reason h3 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.reason p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.reason_wrapper {
+  margin: 2rem 0;
+  background: #c4a6a6;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.reason_wrapper p {
+  text-align: left;
+}
+
+.each_reason {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.08) 100%);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 7px;
+}
+
+.each_reason h4 {
+  margin-bottom: 12px;
+  text-transform: capitalize;
+}
+
+.reason_image img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.each_reason p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+}

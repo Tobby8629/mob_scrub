@@ -1,0 +1,27 @@
+.get_price {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+
+.get_price a:first-child {
+  background-color: #f8ba3f;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  width: 47%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.get_price a:last-child {
+  background-color: white;
+  color: #f8ba3f;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #f8ba3f;
+  width: 47%;
+  text-align: center;
+}

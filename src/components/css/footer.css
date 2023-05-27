@@ -1,0 +1,67 @@
+.Footer h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #1b1212;
+  font-weight: 500;
+  margin: 1.5rem 0;
+  text-transform: capitalize;
+}
+
+.Footer p {
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #5b5b5b;
+}
+
+.conts p {
+  display: flex;
+  align-items: center;
+}
+
+.Footer .one p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #5b5b5b;
+  opacity: 0.6;
+  width: 75%;
+}
+
+.Footer .one .image {
+  width: 25%;
+}
+
+.Footer .one .image img {
+  width: 100%;
+}
+
+.Footer .address p {
+  width: 50%;
+}
+
+.Footer .one .soc {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.conts p span {
+  margin-left: 10px;
+}
+
+.down .privacy {
+  border-top: 2px solid rgba(170, 170, 170, 0.396);
+  padding: 0.5rem;
+}
+
+.down .privacy .pri {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.down .privacy .pri p:last-child {
+  margin-left: 20px;
+}

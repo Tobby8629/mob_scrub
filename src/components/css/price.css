@@ -1,0 +1,38 @@
+.price {
+  padding: 8rem 0;
+}
+
+.price header h3 {
+  font-size: 32px;
+  font-size: 33px;
+  line-height: 44px;
+  color: #523636;
+}
+
+.price header button {
+  background-color: transparent;
+  margin: 1.2rem 0;
+  border: none;
+  outline: none;
+}
+
+.price header a {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #f8ba3f;
+  border: 1px solid #f8ba3f;
+  border-radius: 8px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1rem 1.5rem;
+}
+
+.price .Footer,
+.price .discount {
+  padding: 3rem 1rem;
+}
+
+.price .Footer {
+  padding-bottom: 0;
+}

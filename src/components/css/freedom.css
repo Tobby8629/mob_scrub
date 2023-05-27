@@ -1,0 +1,40 @@
+.freedom {
+  background-color: #c4a6a6;
+  width: 100%;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.freedom h3 {
+  line-height: 38px;
+  color: #fff;
+  text-align: left;
+  font-weight: 400;
+}
+
+.freedom p {
+  line-height: 28px;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.freedom .get_price {
+  margin: 2rem 0;
+}
+
+.freedom .get_price a {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #885a5a;
+  background-color: white;
+}
+
+.freedom .get_price a:last-child {
+  background-color: transparent;
+  border-color: white;
+  color: #ffff;
+}

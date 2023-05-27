@@ -1,0 +1,46 @@
+import React from 'react'
+import '../css/reasons.css'
+import engr from '../asset/engr.png'
+function Reasons() {
+ const reasons = [
+    {
+      id:1,
+      title: "transparent pricing",
+      text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+  },
+  {
+    id:2,
+    title: "Highly trained employees",
+    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+  },
+  {
+    id:3,
+    title: "we bring our own supplies",
+    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+  },
+  {
+    id:4,
+    title: "100% safe & secure",
+    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+  }
+ ]    
+  return (
+    <section className='reason'>
+      <h3>4 reasons to choose us today</h3>
+      <p>Here are some reasons you should choose Scrub and Mob for getting your space cleaned:</p>
+      <div className='reason_wrapper'>
+        {reasons.map((e)=>(
+            <div className='each_reason' key={e.id}>
+                <h4>{e.title}</h4>
+                <p>{e.text}</p>
+            </div>
+        ))}
+        <div className='reason_image'>
+          <img src={engr} alt='technical' />
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Reasons

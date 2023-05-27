@@ -1,13 +1,185 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+}
+
+.show {
+  position: absolute;
+  height: calc(100vh - 4.5rem);
+  top: 0%;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 4.5rem;
+  padding: 2rem 1rem;
+  padding-top: 5rem;
+  transition: 0.3s linear;
+}
+
+.home {
+  color: #523636;
+}
+
+.show li {
+  margin: 1rem 0;
+}
+
+.show li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #885a5a;
+  text-transform: capitalize;
+}
+
+.hide {
+  position: absolute;
+  left: -100%;
+}
+
+.cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hex {
+  color: #c4a6a6;
+}
+
+header {
+  background: linear-gradient(180deg, rgba(235, 218, 209, 0) 49.93%, rgba(235, 218, 209, 0.3) 100%);
+  padding: 1rem;
+}
+
+.about header {
+  padding: 1rem 0;
+  background: transparent;
+}
+
+header h3 {
+  font-size: 32px;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+
+header h4 {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #f8ba3f;
+}
+
+header p {
+  margin: 1rem 0;
+  line-height: 26px;
+}
+
+.mobile p {
+  margin-left: 5px;
+  font-size: 18px;
+  color: #885a5a;
+}
+
+.privacy p {
+  color: #523636;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.menu .get_price {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu .get_price a:first-child,
+.menu .get_price a:last-child {
+  margin: 1rem 0;
+  color: #885a5a;
+  background-color: transparent;
+  padding: 0;
+  text-align: left;
+  border: none;
+}
+
+.menu .privacy .pri {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.menu .privacy .pri p {
+  margin-right: 20px;
+}
+
+section {
+  padding: 1rem;
+  padding-top: 8rem;
+}
+
+section h4 {
+  text-transform: uppercase;
+}
+
+section h3 {
+  font-size: 32px;
+  line-height: 38px;
+  color: #523636;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .mobile,
+  .menu .privacy,
+  .menu .get_price {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
 }

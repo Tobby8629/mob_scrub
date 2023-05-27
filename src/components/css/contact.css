@@ -1,0 +1,116 @@
+.contact {
+  padding: 8rem 0;
+  padding-bottom: 2rem;
+}
+
+.contact header {
+  background: #ffff;
+}
+
+.contact h4,
+.contact h3,
+.contact p {
+  text-align: center;
+}
+
+.contact form {
+  background: #f6f6f6;
+  padding: 3rem 1.5rem;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.form_input label {
+  font-size: 16px;
+  line-height: 22px;
+  color: #523636;
+}
+
+.form_input input {
+  padding: 13px;
+  margin: 10px 0;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.form_input textarea {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.contact_submit input {
+  padding: 0.7rem;
+  outline: none;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #f8ba3f;
+  border: 1px solid #f8ba3f;
+  border-radius: 8px;
+}
+
+.contact_detail {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+.contact_detail p,
+.contact_detail h4 {
+  text-align: left;
+}
+
+.contact_detail h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 22px;
+  color: #523636;
+}
+
+.contact_detail p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: rgba(82, 54, 54, 0.85);
+}
+
+.c_det {
+  margin: 1.2rem 0;
+}
+
+.c_det .top {
+  display: flex;
+  align-items: center;
+}
+
+.contact .Footer {
+  padding-top: 4rem;
+}
+
+.contact .Footer p,
+.contact .Footer h3 {
+  text-align: left;
+}
+
+.contact .faq p,
+.contact .faq h4 {
+  text-align: left;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.contact .freedom p,
+.contact .freedom h3 {
+  text-align: left;
+}
