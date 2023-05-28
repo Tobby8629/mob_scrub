@@ -17,7 +17,7 @@ function Pricelist() {
           <thead>
             <tr>
                <th>  </th>
-               <th>living room</th>
+               <th>livingroom</th>
                <th>Bedroom</th> 
                <th>kitchen</th> 
                <th>Bathroom</th> 
@@ -40,19 +40,19 @@ function Pricelist() {
             </tr>
           </tbody>            
          </table>
-         <div className="ici">
-            <span className='icon'>
-              <img src={top} alt='top'/>
-            </span>
-            <h4>Laundry (wash and press)</h4>
-         </div>
-         <p>A set costs $1</p>
-         <div className='lis'>
-          <p>A set includes;</p>
-          <p>A shirt & a trouser</p>
-          <p>A skirt and a blouse</p>
-          <p>A gown</p>
-         </div>
+      </div>
+      <div className="ici">
+        <span className='icon'>
+          <img src={top} alt='top'/>
+        </span>
+        <h4>Laundry (wash and press)</h4>
+      </div>
+      <p className="ee">A set costs $1</p>
+      <div className='lis'>
+        <p>A set includes;</p>
+        <p>A shirt & a trouser</p>
+        <p>A skirt and a blouse</p>
+        <p>A gown</p>
       </div>
     </div>
   )
