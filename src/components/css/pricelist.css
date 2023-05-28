@@ -1,5 +1,12 @@
 .pricelist {
   overflow: hidden;
+  padding-top: 3rem;
+}
+
+.pricelist h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 th:first-child,
@@ -11,15 +18,32 @@ td:first-child {
 .pricelist th {
   border-right: 1px solid #f5ccc3;
   border-bottom: 1px solid #f5ccc3;
-  font-size: 20px;
+  font-size: 17px;
   padding: 1rem;
   line-height: 28px ;
   text-align: center;
   width: 400px;
 }
 
+.pricelist th {
+  font-weight: 500;
+  line-height: 22px;
+  color: #523636;
+}
+
+.pricelist .solid {
+  font-weight: 600;
+}
+
 .pricelist table td {
   margin: 14px;
+}
+
+.pricelist .dollar {
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  font-weight: 300;
 }
 
 .ici {
@@ -38,7 +62,8 @@ td:first-child {
   width: 1000px;
 }
 
-.price_table h3 {
+.price_table h3,
+.ici h3 {
   font-size: 20px;
   line-height: 25px;
   color: #885a5a;
@@ -62,9 +87,11 @@ td:first-child {
 }
 
 .ici h4 {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 25px;
+  margin-left: 5px;
   color: #885a5a;
+  text-transform: capitalize;
 }
 
 .sum {

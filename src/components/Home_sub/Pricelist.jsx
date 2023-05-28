@@ -6,18 +6,19 @@ import '../css/pricelist.css'
 function Pricelist() {
   return (
     <div className='pricelist'>
-      <div className='price_table'>
-         <div className="ici">
+     <h3>Price list</h3>
+    <div className="ici">
             <span className='icon'>
               <img src={broom} alt='broom'/>
             </span>
-            <h3>housekeeping</h3>
-         </div>
+            <h4>housekeeping</h4>
+    </div>
+      <div className='price_table'>
          <table>
           <thead>
             <tr>
                <th>  </th>
-               <th>livingroom</th>
+               <th>Living room</th>
                <th>Bedroom</th> 
                <th>kitchen</th> 
                <th>Bathroom</th> 
@@ -25,18 +26,18 @@ function Pricelist() {
           </thead>
           <tbody>
             <tr>
-              <td>price</td>
-              <td>30</td>
-              <td>40</td>
-              <td>30</td>
-              <td>20</td>   
+              <td className='dollar'>price($)</td>
+              <td className='solid'>30</td>
+              <td className='solid'>40</td>
+              <td className='solid'>30</td>
+              <td className='solid'>20</td>   
             </tr>
             <tr>
-              <td>Discount</td>
-              <td>more than 3 living rooms</td>
-              <td>more than 5 bedrooms</td>
-              <td>more than 3 kitchens</td>
-              <td>more than 5 bathrooms</td>   
+              <td className='dollar'>3% Discount</td>
+              <td className='dollar'>more than 3 living rooms</td>
+              <td className='dollar'>more than 5 bedrooms</td>
+              <td className='dollar'>more than 3 kitchens</td>
+              <td className='dollar'>more than 5 bathrooms</td>   
             </tr>
           </tbody>            
          </table>

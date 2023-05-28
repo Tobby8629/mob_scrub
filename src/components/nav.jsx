@@ -20,10 +20,10 @@ function Nav() {
         </div>
         <div className = {menu ? "show" : "hide"} onClick={()=> setmenu(false)}>
           <ul>
-            <li><Link to = "/">Home </Link></li>
+            <li><Link to = "home">Home </Link></li>
             <li><Link to = "/price">price</Link> </li>
             <li><Link to = "/about">about us</Link> </li>
-            <li><Link to = "contact">contact us</Link> </li>
+            <li><Link to = "/">contact us</Link> </li>
             <li className='mobile flex'>
               <img src={call} alt='call'/>
               <p>Call 0123456789</p>

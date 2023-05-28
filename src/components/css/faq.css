@@ -27,6 +27,7 @@
   font-size: 18px;
   line-height: 25px;
   color: #885a5a;
+  text-transform: capitalize;
   margin-right: 20px;
 }
 

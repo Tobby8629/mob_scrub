@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 li {
@@ -25,9 +25,6 @@ a {
   flex-direction: column;
 }
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
 
 nav {
   display: flex;
@@ -61,7 +58,7 @@ nav {
 }
 
 .show li {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .show li a {
