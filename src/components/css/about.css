@@ -42,3 +42,34 @@
   padding: 5rem 1rem;
   padding-bottom: 2rem;
 }
+
+@media (min-width: 768px) {
+  .about header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4.5rem;
+  }
+
+  .about_header {
+    width: 55%;
+  }
+
+  .team .image {
+    width: 100%;
+  }
+
+  .about header .image {
+    width: 35%;
+  }
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4.5rem;
+  }
+
+  .about .Footer {
+    padding: 2rem 4.5rem;
+    padding-bottom: 5rem;
+  }
+}

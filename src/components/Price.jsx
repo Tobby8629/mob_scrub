@@ -11,10 +11,13 @@ function Price() {
   return (
     <section className='price'>
       <header>
-        <h4>pricing</h4>
-        <h3>Get our services at an <span className='hex'>affordable price</span> </h3>
-        <p>Scrub and Mob is your secret weapon in the fight against grime, dirt and clutter. Our team of expert is armed with top-notch cleaning tools and techniques to ensure your home is spotless and shinning.</p>
-        <button><Link to="/contact">Contact us</Link></button>
+       <div className='price_left'>
+          <h4>pricing</h4>
+          <h3>Get our services at an <span className='hex'>affordable price</span> </h3>
+          <p>Scrub and Mob is your secret weapon in the fight against grime, dirt and clutter. Our team of expert is armed with top-notch cleaning tools and techniques to ensure your home is spotless and shinning.</p>
+          <button><Link to="/contact">Contact us</Link></button>
+       </div>
+        
         <div className='image'>
           <img src={price} alt='priceimage' />
         </div>

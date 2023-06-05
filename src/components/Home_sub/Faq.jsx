@@ -46,11 +46,11 @@ function Faq() {
 
   return (
    <section className='faq'>
-    <h3>frequently asked questions</h3>
+    <h3>Frequently asked questions</h3>
     <div className='faq_wrapper'>
       {tray.map((e,index)=>(
         <label className='faq_wrap' key={e.id} >
-          <input type='checkbox' checked={e.open} onClick={()=>opentray(e.id)}/>
+          <input type='checkbox' checked={e.open} onChange={()=>opentray(e.id)}/>
           <div className='faq_top'>
             <h4>{e.question}</h4> 
             { e.open ? <i className="fa-solid fa-minus"></i> : <i className="fa-solid fa-plus"></i> }

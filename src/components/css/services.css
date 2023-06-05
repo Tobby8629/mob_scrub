@@ -1,0 +1,79 @@
+.service {
+  padding: 4.5rem;
+  padding-bottom: 0;
+}
+
+.service h3,
+.service .top {
+  width: 56%;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.service .top {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  color: rgba(82, 54, 54, 0.85);
+}
+
+.servicetwo {
+  padding: 4rem 0;
+}
+
+.laundry h4 {
+  font-size: 20px;
+  line-height: 33px;
+  color: #523636;
+  margin: 5px 0;
+  text-transform: capitalize;
+}
+
+.two_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two_content .img {
+  width: 37%;
+  padding-top: 3.5rem;
+}
+
+.img img {
+  width: 100%;
+}
+
+.two_content .text {
+  width: 55%;
+}
+
+.text .laundry:first-child {
+  margin-bottom: 5rem;
+}
+
+.laundry p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #523636;
+  margin: 10px 0;
+}
+
+.laundry .main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #523636;
+}
+
+.flex .image {
+  width: 5%;
+  margin-right: 10px;
+}
+
+.image img {
+  width: 100%;
+}

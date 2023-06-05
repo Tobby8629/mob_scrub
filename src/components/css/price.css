@@ -9,13 +9,6 @@
   letter-spacing: 0.04em;
 }
 
-.price header h3 {
-  font-size: 32px;
-  font-size: 33px;
-  line-height: 44px;
-  color: #523636;
-}
-
 .price header button {
   background-color: transparent;
   margin: 1.2rem 0;
@@ -42,4 +35,30 @@
 
 .price .Footer {
   padding-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .price header {
+    display: flex;
+
+    /* justify-content: space-between; */
+    padding: 2rem 4.5rem;
+  }
+
+  .price_left {
+    width: 45%;
+    margin-right: 10rem;
+  }
+
+  .price .image {
+    width: 35%;
+  }
+
+  .price .image img {
+    width: 100%;
+  }
+
+  .price .Footer {
+    padding: 3rem 4.5rem;
+  }
 }

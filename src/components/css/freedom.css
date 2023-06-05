@@ -38,3 +38,44 @@
   border-color: white;
   color: #ffff;
 }
+
+@media (min-width: 768px) {
+  .freedom .get_price {
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .freedom .get_price a {
+    width: 45%;
+  }
+
+  .freedom .freedom_content {
+    width: 50%;
+    margin: auto;
+  }
+
+  .freedom p,
+  .freedom h3 {
+    text-align: center;
+  }
+
+  .freedom p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin: 2rem 0;
+  }
+
+  .freedom h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0;
+  }
+}

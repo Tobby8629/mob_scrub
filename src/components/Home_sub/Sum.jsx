@@ -18,48 +18,70 @@ function Sum() {
     settotal(tot) 
   }
 
+  const updatedis = (e, value) => {
+    let parent = e.target.parentNode.parentNode
+    let child = parent.querySelector('#dis');
+      if(e.target.value >= value) {
+       child.style.display = "block"
+       child.innerText = "3% discount off"
+      }
+      else {
+         child.style.display = "none"
+      }
+  }
+
   const Discount = (discount, value, price) => {
     let ree = value * price 
    return value < discount ? ree : ree - (ree * 0.03)
   }
   
   return (
-    <div className='sum'>
-      <h3>Sum it up!</h3>
+    <>
+      <h3 className='sum_h3'>Sum it up!</h3>
+      <div className='sum'>
       <div className='sub housekeeping'> 
         <h4>Housekeeping</h4>
-        <div>
-          <label htmlFor = "bedroom">Bedroom</label>
-          <label htmlFor="bedroom" className='input'>
-            <input type='number' id='bedroom' value={room}  onChange={(e) => {e.target.style.width = `${e.target.value.length * 10}px`; setroom(e.target.value)}} onKeyUp={update} />Bedroom
-          </label>
-        </div>
-        <div>
-          <label htmlFor = "living room">Living Bedroom</label>
+        <div className='form_flex'>
+          <div>
+            <label className='tt' htmlFor = "bedroom">Bedroom</label>
+            <label htmlFor="bedroom" className='input'>
+              <input type='number' className='no-arrow-input' id='bedroom' value={room}  onChange={(e) => {e.target.style.width = `${e.target.value.length * 10}px`; setroom(e.target.value); updatedis(e,5)}} onKeyUp={update} />Bedroom
+            </label>
+            <span id='dis'></span>
+          </div>
+          <div>
+          <label className='tt' htmlFor = "living room">Living Bedroom</label>
           <label htmlFor="living room" className='input'>
-            <input type='number' id='living room' value={palour}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setpalour(e.target.value)}} onKeyUp={update} /> living room
+            <input type='number' className='no-arrow-input' id='living room' value={palour}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setpalour(e.target.value); updatedis(e,3)}} onKeyUp={update} /> living room
           </label>
+          <span id='dis'></span>
         </div>
-         <div>
-           <label htmlFor = "lkitchen">Kitchen</label>
-            <label htmlFor="kitchen" className='input'>
-              <input type='number' id='kitchen' value={cloth}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setcloth(e.target.value)}} onKeyUp={update} /> kitchen
-            </label>
-          </div>
-         <div>
-           <label htmlFor = "bathroom">bathroom</label>
-            <label htmlFor="bathroom" className='input'>
-              <input type='number' id='bathroom' value={food}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setfood(e.target.value)}} onKeyUp={update} /> bathroom 
-            </label>
-          </div>
+        </div>
+        
+        <div className='form_flex'>
+          <div>
+            <label className='tt' htmlFor = "kitchen">Kitchen</label>
+              <label htmlFor="kitchen" className='input'>
+                <input type='number' className='no-arrow-input' id='kitchen' value={cloth}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setcloth(e.target.value); updatedis(e,3)}} onKeyUp={update} /> kitchen
+              </label>
+              <span id='dis'></span>
+            </div>
+          <div>
+            <label className='tt' htmlFor = "bathroom">bathroom</label>
+              <label htmlFor="bathroom" className='input'>
+                <input type='number' className='no-arrow-input' id='bathroom' value={food}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setfood(e.target.value); updatedis(e,5)}} onKeyUp={update} /> bathroom 
+              </label>
+              <span id='dis'></span>
+            </div>
+        </div>
+        
       </div>
 
       <div className='sub laundry'>
         <h4>laundry</h4>
          <div>
-          <label htmlFor = "laundry">laundry</label>
           <label htmlFor="laundry" className='input'>
-            <input type='number' id='laundry' value={shower}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setshower(e.target.value)}} onKeyUp={update} />  set
+            <input type='number' className='no-arrow-input' id='laundry' value={shower}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setshower(e.target.value); updatedis()}} onKeyUp={update} />  set
           </label>
          </div>
       </div>
@@ -68,6 +90,8 @@ function Sum() {
 
       <p>${total}</p>
     </div>
+    </>
+    
   )
 }
 

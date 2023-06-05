@@ -20,13 +20,14 @@ td:first-child {
   border-bottom: 1px solid #f5ccc3;
   font-size: 17px;
   padding: 1rem;
-  line-height: 28px ;
+  line-height: 28px;
   text-align: center;
   width: 400px;
 }
 
 .pricelist th {
   font-weight: 500;
+  padding: 10px 0;
   line-height: 22px;
   color: #523636;
 }
@@ -74,10 +75,6 @@ td:first-child {
   margin-right: 10px;
 }
 
-.pricelist th {
-  padding: 10px 0;
-}
-
 .pricelist p {
   font-size: 14px;
   padding: 10px 0;
@@ -92,6 +89,10 @@ td:first-child {
   margin-left: 5px;
   color: #885a5a;
   text-transform: capitalize;
+}
+
+.price_desktop {
+  display: none;
 }
 
 .sum {
@@ -158,4 +159,88 @@ td:first-child {
 .lis,
 .pricelist .ee {
   padding: 0 1rem;
+}
+
+.no-arrow-input {
+  -moz-appearance: textfield;
+}
+
+.no-arrow-input::-webkit-inner-spin-button,
+.no-arrow-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .sum_h3 {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  .pricelist {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .price_table {
+    overflow: hidden;
+    margin: 2rem 0;
+  }
+
+  .price_table table {
+    width: 100%;
+  }
+
+  .ici h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0;
+  }
+
+  .ici .icon {
+    margin-right: 4px;
+  }
+
+  .lis {
+    display: flex;
+  }
+
+  .lis p,
+  .pricelist .ee {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .price_desktop {
+    display: inline;
+    margin: 0 5px;
+  }
+
+  .sum {
+    width: 60%;
+    margin: 4rem auto;
+    padding: 2rem 4.5rem;
+  }
+
+  .sum .input {
+    margin: 0;
+  }
+
+  .form_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .form_flex div {
+    width: 49%;
+  }
+
+  .sum .tt {
+    margin-top: 20px;
+  }
 }

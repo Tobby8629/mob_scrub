@@ -26,15 +26,18 @@ function Reasons() {
  ]    
   return (
     <section className='reason'>
-      <h3>4 reasons to choose us today</h3>
-      <p>Here are some reasons you should choose Scrub and Mob for getting your space cleaned:</p>
+      <h3>4 reasons to choose us, today</h3>
+      <p className='top'>Here are some reasons you should choose Scrub and Mob for getting your space cleaned:</p>
       <div className='reason_wrapper'>
-        {reasons.map((e)=>(
-            <div className='each_reason' key={e.id}>
-                <h4>{e.title}</h4>
-                <p>{e.text}</p>
-            </div>
-        ))}
+        <div className='eeach'>
+          {reasons.map((e)=>(
+              <div className='each_reason' key={e.id}>
+                  <h4>{e.title}</h4>
+                  <p>{e.text}</p>
+              </div>
+          ))}
+        </div>
+       
         <div className='reason_image'>
           <img src={engr} alt='technical' />
         </div>

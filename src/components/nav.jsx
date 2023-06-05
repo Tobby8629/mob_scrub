@@ -32,10 +32,10 @@ function Nav() {
           <Getprice />
           <Privacy />
         </div>
-        <div className='desktop flex'>
-              <img src={call} alt='call'/>
-              <p>Call 0123456789</p>
-        </div>
+      </div>
+      <div className='lex'>
+        <img src={call} alt='call'/>
+        <p>Call 0123456789</p>
       </div>
     </nav>
   )
