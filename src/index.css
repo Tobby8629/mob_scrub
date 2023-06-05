@@ -25,7 +25,6 @@ a {
   flex-direction: column;
 }
 
-
 nav {
   display: flex;
   align-items: center;
@@ -117,13 +116,6 @@ header p {
   color: #885a5a;
 }
 
-.privacy p {
-  color: #523636;
-  mix-blend-mode: normal;
-  opacity: 0.6;
-  font-size: 14px;
-}
-
 .menu .get_price {
   display: flex;
   flex-direction: column;
@@ -165,18 +157,95 @@ section h3 {
   padding: 0;
 }
 
-.desktop {
+.desktop,
+.lex {
   display: none;
 }
 
 @media (min-width: 768px) {
   .mobile,
   .menu .privacy,
-  .menu .get_price {
+  .menu .get_price,
+  .bars {
     display: none;
+  }
+
+  nav {
+    padding: 1rem 4rem;
+  }
+
+  .show,
+  .hide {
+    position: unset;
+    height: auto;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul {
+    display: flex;
+  }
+
+  .menu li {
+    margin: 0 10px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .menu li a {
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #885a5a;
+  }
+
+  .menu li:hover {
+    background-color: #f6f6f6;
   }
 
   .desktop {
     display: block;
+  }
+
+  .lex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lex img {
+    width: 20px;
+  }
+
+  header p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #523636;
+  }
+
+  .lex p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #885a5a;
+    margin-left: 10px;
+  }
+
+  header h3 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+    color: #523636;
+  }
+
+  header h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #f8ba3f;
   }
 }

@@ -12,13 +12,20 @@ function Home() {
   return (
     <>
       <header className='home'>
+        <div className='header_text'>
         <h3><span className='hex'>First class</span> cleaning service for your home</h3>
         <p>Scrub and Mob is your secret weapon in the fight against grime, dirt and clutter. Our team of expert is armed with top-notch cleaning tools and techniques to ensure your home is spotless and shinning.</p>
         <Getprice />
+        <ul className='desktop'>
+          <li> <span className='solid'>100+</span> Total Client</li>
+          <li> <span className='solid'>50+</span> employees</li>
+          <li> <span className='solid'>5+</span> years experience</li>
+        </ul>
+        </div>
         <div className='image'>
           <img src={woman} alt = "woman" />  
         </div>
-        <ul>
+        <ul className='mobile'>
           <li> <span className='solid'>100+</span> Total Client</li>
           <li> <span className='solid'>50+</span> employees</li>
           <li> <span className='solid'>5+</span> years experience</li>

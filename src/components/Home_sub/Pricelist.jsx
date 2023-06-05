@@ -51,8 +51,8 @@ function Pricelist() {
       <p className="ee">A set costs $1</p>
       <div className='lis'>
         <p>A set includes;</p>
-        <p>A shirt & a trouser</p>
-        <p>A skirt and a blouse</p>
+        <p>A shirt & a trouser <span className='price_desktop'>/</span></p>
+        <p>A skirt and a blouse <span className='price_desktop'>/</span></p>
         <p>A gown</p>
       </div>
     </div>

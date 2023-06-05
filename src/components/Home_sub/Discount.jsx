@@ -23,6 +23,7 @@ const plans = [
   return (
     <section className='discount'>
       <h3>Housekeeping Discounted plans</h3>
+      <p>We offer subscription plans to cater to our clients' regular housekeeping needs. Each plan comes with a corresponding discount.</p>
       <div className='discount_wrapper'>
         {plans.map((e)=>(
         <div className='plans' key={e.id}>

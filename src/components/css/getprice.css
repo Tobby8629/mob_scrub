@@ -16,7 +16,7 @@
 }
 
 .get_price a:last-child {
-  background-color: white;
+  background-color: transparent;
   color: #f8ba3f;
   font-size: 16px;
   padding: 20px;
@@ -24,4 +24,15 @@
   border: 1px solid #f8ba3f;
   width: 47%;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .get_price {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* .get_price a {
+  width: fit-content;
+} */
 }

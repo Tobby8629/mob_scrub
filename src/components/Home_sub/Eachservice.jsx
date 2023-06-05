@@ -27,7 +27,7 @@ function Eachservice() {
       },
    ]
   return (
-    <div className='service_wrapper'>
+    <div className='service_wrapper mobile'>
       {service.map((each)=>(
         <div className='each_service' key={each.id}>
           <div className='bene top'>
@@ -41,7 +41,7 @@ function Eachservice() {
             <img src={each.image} alt='service-offer' />
           </div>
           {each.benefit.map((e)=>(
-              <div className='bene'> 
+              <div className='bene' key={Math.round(Math.random()*100)}> 
                 <div className='image'>
                   <img src={icon} alt='each'/>
                 </div>
