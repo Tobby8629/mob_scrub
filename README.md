@@ -77,13 +77,13 @@ In order to run this project you need:
 - Clone this repository to your desired folder:
 
 ```sh
- git clone https://github.com/Tobby8629/Portfolio_Next.git
+ git clone https://github.com/Tobby8629/Mob_scrub.git
 ```
 
 - Navigate into the cloned folder
 
 ```sh
- cd Portfolio_Next
+ cd Mob_scrub
 
 ```
 
@@ -120,7 +120,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [x] **Testimonies from clients.**
-- [x] **Add some pictures to staffs.**
+- [x] **Add some pictures of staffs.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
