@@ -44,6 +44,11 @@
   text-transform: capitalize;
 }
 
+.reason_image {
+  width: 48%;
+  margin: auto;
+}
+
 .reason_image img {
   width: 100%;
   border-radius: 7px;
@@ -61,7 +66,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
   .each_reason {
     width: 48%;
     margin-right: 10px;
@@ -116,6 +121,7 @@
 
   .reason_image {
     width: 39%;
+    margin: 0;
   }
 
   .reason_image img {

@@ -178,7 +178,7 @@ td:first-child {
   }
 
   .pricelist {
-    width: 80%;
+    width: 90%;
     margin: 1rem auto;
   }
 
@@ -221,7 +221,7 @@ td:first-child {
   }
 
   .sum {
-    width: 60%;
+    width: 80%;
     margin: 4rem auto;
     padding: 2rem 4.5rem;
   }
@@ -242,5 +242,17 @@ td:first-child {
 
   .sum .tt {
     margin-top: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .pricelist {
+    width: 90%;
+  }
+
+  .sum {
+    width: 60%;
+    margin: 4rem auto;
+    padding: 2rem 4.5rem;
   }
 }

@@ -34,12 +34,12 @@
     margin: 0;
   }
 
-  /* .get_price a {
-  width: fit-content;
-} */
+  .get_price a {
+    padding: 15px;
+  }
 }
 
-@media  (min-width: 1000px) {
+@media (min-width: 1000px) {
   .get_price a {
     padding: 15px;
   }

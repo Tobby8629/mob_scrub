@@ -100,7 +100,7 @@
   }
 
   .Footer .top .serv {
-    width: 13%;
+    width: 15%;
   }
 
   .Footer .address p {
@@ -139,4 +139,19 @@
     padding: 5rem;
   }
 
+  .Footer .top .chi {
+    width: 18%;
+  }
+
+  .Footer .top .one {
+    width: 23%;
+  }
+
+  .Footer .top .address {
+    width: 17%;
+  }
+
+  .Footer .top .serv {
+    width: 15%;
+  }
 }

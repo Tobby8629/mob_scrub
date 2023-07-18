@@ -151,7 +151,6 @@ section h4 {
 
 section h3 {
   font-size: 32px;
-  line-height: 38px;
   color: #523636;
   margin: 10px 0;
   padding: 0;
@@ -244,7 +243,7 @@ section h3 {
 
   header h4 {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #f8ba3f;
@@ -269,9 +268,7 @@ section h3 {
 }
 
 @media (min-width: 1280px) {
-
   header h3 {
     font-size: 48px;
   }
-
 }

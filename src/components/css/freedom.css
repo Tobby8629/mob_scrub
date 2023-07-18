@@ -1,7 +1,7 @@
 .freedom {
   background-color: #c4a6a6;
   width: 100%;
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
@@ -76,18 +76,34 @@
     line-height: 44px;
     text-align: center;
     color: #fff;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 }
 
 @media (min-width: 1000px) {
   .freedom .freedom_content {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 
   .freedom .get_price {
-    width: 65%;
+    width: 70%;
   }
 
+  .freedom .freedom_content h3 {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .freedom .freedom_content {
+    width: 50%;
+    margin: auto;
+  }
+
+  .freedom .freedom_content h3 {
+    width: 80%;
+    margin: auto;
+  }
 }

@@ -1,5 +1,6 @@
 .about {
-  padding: 8rem 0;
+  padding: 0;
+  padding-top: 8rem;
 }
 
 .about header,
@@ -8,7 +9,7 @@
 }
 
 .team {
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 
 .team h3 {
@@ -47,7 +48,7 @@
   .about header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4.5rem;
+    padding: 1rem 1.5rem;
   }
 
   .about_header {
@@ -65,11 +66,34 @@
   .team {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4.5rem;
+    padding: 1rem 4rem;
+  }
+
+  .each_team {
+    width: 32%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about header {
+    padding: 1rem 5rem;
+  }
+
+  .about_header {
+    width: 50%;
   }
 
   .about .Footer {
-    padding: 2rem 4.5rem;
-    padding-bottom: 5rem;
+    padding: 2rem 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about header {
+    padding: 1rem 5rem;
+  }
+
+  .about_header {
+    width: 47%;
   }
 }

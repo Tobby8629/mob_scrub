@@ -63,7 +63,7 @@
   }
 
   .discount .get_price {
-    width: 30%;
+    width: 50%;
     margin: 1rem auto;
   }
 }
@@ -72,5 +72,9 @@
   .discount p {
     width: 60%;
     margin: 1rem auto;
+  }
+
+  .discount .get_price {
+    width: 30%;
   }
 }
