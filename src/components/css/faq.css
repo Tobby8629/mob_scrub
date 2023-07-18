@@ -64,7 +64,7 @@
   }
 
   .faq_wrapper {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 
@@ -80,4 +80,12 @@
     line-height: 26px;
     letter-spacing: 0.04em;
   }
+}
+
+@media (min-width: 1000px) {
+  .faq_wrapper {
+    width: 50%;
+    margin: auto;
+  }
+
 }

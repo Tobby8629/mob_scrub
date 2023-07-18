@@ -1,6 +1,7 @@
 .reason {
   width: 93%;
   margin: 1rem auto;
+  padding-top: 1rem;
 }
 
 .reason h3 {
@@ -56,10 +57,31 @@
 }
 
 @media (min-width: 768px) {
+  .eeach {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .each_reason {
+    width: 48%;
+    margin-right: 10px;
+  }
+
+  .reason .top {
+    width: 70%;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .reason {
+    padding: 0;
+  }
+
   .reason_wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 3rem;
+    padding: 4rem 1.5rem;
   }
 
   .eeach {
@@ -72,12 +94,12 @@
   .each_reason {
     width: 49%;
     margin: 5px 0;
-    padding: 1rem 1.5rem;
+    padding: 1rem;
   }
 
   .reason h3,
   .reason .top {
-    width: 37%;
+    width: 50%;
     margin: auto;
   }
 
@@ -94,5 +116,23 @@
 
   .reason_image {
     width: 39%;
+  }
+
+  .reason_image img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .reason {
+    width: 90%;
+  }
+
+  .reason .top {
+    width: 40%;
+  }
+
+  .reason_wrapper {
+    padding: 4rem 3rem;
   }
 }

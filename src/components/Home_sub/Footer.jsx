@@ -23,11 +23,11 @@ function Footer() {
             <img src={twitter} alt='twitter'/>
             </div>
         </div>
-        <div className='address'>
+        <div className='address chi'>
             <h3>office address</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut.</p>
         </div>
-        <div className='cont'>
+        <div className='cont chi'>
             <h3>contact us</h3>
             <div className='conts'>
               <p>
@@ -40,14 +40,14 @@ function Footer() {
               </p>
             </div>
         </div>
-        <div className='serv'>
+        <div className='serv chi'>
             <h3>our services</h3>
             <div className='ser'>
               <p>Housekeeping</p>
               <p>Laundry</p>
             </div>
         </div>
-        <div className='work'>
+        <div className='work chi'>
             <h3>working hours</h3>
             <div className='day'>
               <p>Mon - Fri: 8:00am - 5:00pm</p>

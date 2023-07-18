@@ -1,13 +1,5 @@
 .service {
-  padding: 4.5rem;
-  padding-bottom: 0;
-}
-
-.service h3,
-.service .top {
-  width: 56%;
-  margin: 1rem auto;
-  text-align: center;
+  padding-top: 2rem;
 }
 
 .service .top {
@@ -19,7 +11,7 @@
 }
 
 .servicetwo {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .laundry h4 {
@@ -28,28 +20,6 @@
   color: #523636;
   margin: 5px 0;
   text-transform: capitalize;
-}
-
-.two_content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.two_content .img {
-  width: 37%;
-  padding-top: 3.5rem;
-}
-
-.img img {
-  width: 100%;
-}
-
-.two_content .text {
-  width: 55%;
-}
-
-.text .laundry:first-child {
-  margin-bottom: 5rem;
 }
 
 .laundry p {
@@ -69,11 +39,84 @@
   color: #523636;
 }
 
-.flex .image {
+.service .flex {
+  align-items: baseline;
+}
+
+.flex .imge {
   width: 5%;
   margin-right: 10px;
 }
 
 .image img {
   width: 100%;
+  height: 100%;
+}
+
+.imge img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .service {
+    padding: 4.5rem;
+    padding-bottom: 0;
+  }
+
+  .service h3,
+.service .top {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.service h3 {
+  width: 56%;
+}
+
+.two_content .img {
+  width: 50%; 
+  margin: 1rem auto;
+}
+
+}
+
+@media (min-width: 1000px) {
+  .two_content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .two_content .img {
+    width: 37%;
+    padding-top: 3.5rem;
+  }
+  
+  .img img {
+    width: 100%;
+  }
+  
+  .two_content .text {
+    width: 55%;
+  }
+  
+  .text .laundry:first-child {
+    margin-bottom: 5rem;
+  }
+
+  .service .top {
+    width: 80%;
+  } 
+}
+
+
+@media (min-width: 1280px) {
+  .service .top {
+    width: 65%;
+  } 
+
+  .img img {
+    width: 100%;
+    height: 100%;
+  }
+  
 }

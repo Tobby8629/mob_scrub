@@ -66,7 +66,7 @@ function ServiceTwo() {
             <h4>Housekeeping</h4>
             {service.filter(e =>e.title === 'Housekeeping').map((e)=>(
               <div className="flex" key={e.id}> 
-                <div className= 'image'>
+                <div className= 'imge'>
                 <img src={icon} alt='each'/>
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>
@@ -77,7 +77,7 @@ function ServiceTwo() {
             <h4>laundry</h4>
             {service.filter(e =>e.title === 'Laundry').map((e)=>(
               <div className="flex" key={e.id}> 
-                <div className= 'image'>
+                <div className= 'imge'>
                 <img src={icon} alt='each'/>
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>

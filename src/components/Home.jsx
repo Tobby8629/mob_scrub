@@ -2,6 +2,7 @@ import React from 'react'
 import './css/home.css'
 import Getprice from './Home_sub/Get_price'
 import woman from './asset/bucket_woman.png'
+import woman2 from './asset/woman2.png'
 import Service from './Home_sub/Service'
 import Reasons from './Home_sub/Reasons'
 import Discount from './Home_sub/Discount'
@@ -22,8 +23,11 @@ function Home() {
           <li> <span className='solid'>5+</span> years experience</li>
         </ul>
         </div>
-        <div className='image'>
+        <div className='image mobile'>
           <img src={woman} alt = "woman" />  
+        </div>
+        <div className='image desktop'>
+          <img src={woman2} alt = "woman" />  
         </div>
         <ul className='mobile'>
           <li> <span className='solid'>100+</span> Total Client</li>

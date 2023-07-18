@@ -16,7 +16,7 @@
 
 .conts p {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .Footer .privacy p {
@@ -56,6 +56,8 @@
 
 .conts p span {
   margin-left: 10px;
+  overflow: auto;
+  word-wrap: break-word;
 }
 
 .down .privacy {
@@ -75,7 +77,7 @@
 
 @media (min-width: 768px) {
   .Footer {
-    padding: 5rem;
+    padding: 1rem;
   }
 
   .Footer .top {
@@ -85,16 +87,20 @@
     padding-bottom: 2.5rem;
   }
 
-  .Footer .top .address {
+  .Footer .top .chi {
     width: 16%;
   }
 
-  .Footer .top .one:nth-child(odd) {
+  .Footer .top .one {
     width: 25%;
   }
 
+  .Footer .top .address {
+    width: 20%;
+  }
+
   .Footer .top .serv {
-    width: 10%;
+    width: 13%;
   }
 
   .Footer .address p {
@@ -108,8 +114,8 @@
     width: 100%;
   }
 
-  .Footer .one .soc {
-    width: 40%;
+  .Footer .one .soc img {
+    margin-right: 10%;
   }
 
   .down .privacy {
@@ -126,4 +132,11 @@
     mix-blend-mode: normal;
     opacity: 0.58;
   }
+}
+
+@media (min-width: 1000px) {
+  .Footer {
+    padding: 5rem;
+  }
+
 }

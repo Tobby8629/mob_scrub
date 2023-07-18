@@ -41,7 +41,7 @@
 
 @media (min-width: 768px) {
   .freedom .get_price {
-    width: 65%;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
   }
@@ -51,7 +51,7 @@
   }
 
   .freedom .freedom_content {
-    width: 50%;
+    width: 70%;
     margin: auto;
   }
 
@@ -78,4 +78,16 @@
     color: #fff;
     margin: 2rem 0;
   }
+}
+
+@media (min-width: 1000px) {
+  .freedom .freedom_content {
+    width: 50%;
+    margin: auto;
+  }
+
+  .freedom .get_price {
+    width: 65%;
+  }
+
 }

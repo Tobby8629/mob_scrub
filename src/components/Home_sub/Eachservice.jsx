@@ -42,7 +42,7 @@ function Eachservice() {
           </div>
           {each.benefit.map((e)=>(
               <div className='bene' key={Math.round(Math.random()*100)}> 
-                <div className='image'>
+                <div className='imge'>
                   <img src={icon} alt='each'/>
                 </div>
                 <p>{e}</p>

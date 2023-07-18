@@ -170,8 +170,23 @@ section h3 {
     display: none;
   }
 
+  header {
+    padding: 0;
+  }
+
   nav {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
+  }
+
+  header p {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #523636;
+  }
+
+  header h3 {
+    font-size: 25px;
   }
 
   .show,
@@ -219,26 +234,12 @@ section h3 {
     width: 20px;
   }
 
-  header p {
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.04em;
-    color: #523636;
-  }
-
   .lex p {
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.04em;
     color: #885a5a;
     margin-left: 10px;
-  }
-
-  header h3 {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 66px;
-    color: #523636;
   }
 
   header h4 {
@@ -248,4 +249,29 @@ section h3 {
     letter-spacing: 0.02em;
     color: #f8ba3f;
   }
+}
+
+@media (min-width: 1000px) {
+  nav {
+    padding: 1rem 5rem;
+  }
+
+  header h3 {
+    font-size: 35px;
+  }
+
+  header p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #523636;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  header h3 {
+    font-size: 48px;
+  }
+
 }
