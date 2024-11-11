@@ -5,7 +5,7 @@ import "../css/getprice.css"
 function Getprice() {
   return (
     <div className='get_price'>
-      <Link to= "/pricing"> Get a price </Link>
+      <Link to= "/price"> Get a price </Link>
       <Link to= "/contact"> Contact Us </Link>
     </div>
   )
