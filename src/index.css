@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
 
+:root {
+  --text-pry: #8b6060d0;
+  --text-sec: #EBDAD1;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -119,6 +125,7 @@ header p {
 .menu .get_price {
   display: flex;
   flex-direction: column;
+  
 }
 
 .menu .get_price a:first-child,
@@ -226,6 +233,7 @@ section h3 {
 
   .lex {
     display: flex;
+    align-items: center;
     flex-direction: row;
   }
 

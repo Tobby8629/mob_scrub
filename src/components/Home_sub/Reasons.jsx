@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import '../css/reasons.css'
-import engr from '../asset/engr.png'
+import { ImageComponent } from '../asset/imageComponent/Index'
 function Reasons() {
  const reasons = [
     {
@@ -31,15 +31,17 @@ function Reasons() {
       <div className='reason_wrapper'>
         <div className='eeach'>
           {reasons.map((e)=>(
-              <div className='each_reason' key={e.id}>
-                  <h4>{e.title}</h4>
-                  <p>{e.text}</p>
-              </div>
+            <div className='each_reason' key={e.id}>
+                <h4>{e.title}</h4>
+                <p>{e.text}</p>
+            </div>
           ))}
         </div>
        
         <div className='reason_image'>
-          <img src={engr} alt='technical' />
+          <Suspense fallback={<div>loading...</div>}>
+            <ImageComponent.Engr width={"100%"} height={"100%"}/>
+          </Suspense>
         </div>
       </div>
     </section>

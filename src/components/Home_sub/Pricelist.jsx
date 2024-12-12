@@ -1,7 +1,6 @@
 import React from 'react'
-import top from '../asset/top.png'
-import broom from '../asset/broom.png'
 import '../css/pricelist.css'
+import svg from '../asset/svgs'
 
 function Pricelist() {
   return (
@@ -9,7 +8,7 @@ function Pricelist() {
      <h3>Price list</h3>
     <div className="ici">
             <span className='icon'>
-              <img src={broom} alt='broom'/>
+              {svg.broom}
             </span>
             <h4>housekeeping</h4>
     </div>
@@ -44,7 +43,7 @@ function Pricelist() {
       </div>
       <div className="ici">
         <span className='icon'>
-          <img src={top} alt='top'/>
+          {svg.top}
         </span>
         <h4>Laundry (wash and press)</h4>
       </div>

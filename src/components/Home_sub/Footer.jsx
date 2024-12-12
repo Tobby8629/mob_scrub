@@ -1,12 +1,7 @@
 import React from 'react'
-import logo from '../asset/Logo.png'
-import linkedin from '../asset/linkedin.png'
-import insta from '../asset/insta.png'
-import mail from '../asset/mail.png'
-import phone from '../asset/phone.png'
-import twitter from '../asset/twitter.png'
 import '../css/footer.css'
 import Privacy from '../Home_sub/Privacy'
+import svg from '../asset/svgs'
 
 function Footer() {
   return (
@@ -14,13 +9,13 @@ function Footer() {
       <div className='top'>
         <div className='one'>
             <div className='image'>
-            <img src={logo} alt='logo'/> 
+            {svg.logo}
             </div>
             <p>At Scrub and Mob, your hygiene and safety is our priority and we deliver with utmost care and security.</p>
             <div className='soc'>
-            <img src={linkedin} alt='linkedin'/>
-            <img src={insta} alt='insta'/>
-            <img src={twitter} alt='twitter'/>
+              {svg.linkedin}
+              {svg.insta}
+              {svg.twitter}
             </div>
         </div>
         <div className='address chi'>
@@ -31,11 +26,11 @@ function Footer() {
             <h3>contact us</h3>
             <div className='conts'>
               <p>
-                <img src={mail} alt='mail'/> 
+                {svg.mail}
                 <span>example@gmail.com</span>
               </p>
               <p>
-                <img src={phone} alt='phone'/>
+                 {svg.phone}
                  <span>0123456789</span>
               </p>
             </div>

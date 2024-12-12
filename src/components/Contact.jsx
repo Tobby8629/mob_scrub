@@ -3,52 +3,10 @@ import "./css/contact.css"
 import Freedom from './Home_sub/Freedom'
 import Footer from './Home_sub/Footer'
 import Faq from './Home_sub/Faq'
+import { contact } from './asset/Data'
+import svg from './asset/svgs'
 
 function Contact() {
-  const contact = [
-   {
-    id: 1,
-    contact: "Office address",
-    logo: 'office.png',
-    detail: "Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut."
-   },
-   {
-    id: 2,
-    contact: "Phone number",
-    logo: 'phone.png',
-    detail: +1234567890
-   },
-
-   {
-    id: 3,
-    contact: "Email",
-    logo: "mail.png",
-    detail: "scrub&mob@gmail.com"
-   },
-   
-   
-   {
-    id: 4,
-    contact: "Instagram",
-    logo: 'insta.png',
-    detail: "@scrub&mob",
-   },
-
-   {
-    id: 5,
-    contact: "Twitter",
-    logo: "twitter.png",
-    detail: "@scrub&mob"
-   },
-
-   {
-    id: 6,
-    contact: "LinkedIn",
-    logo: "linkedin.png",
-    detail: "@scrub&mob"
-   },
-
-  ]
   return (
     <section className='contact'>
       <header>
@@ -97,7 +55,7 @@ function Contact() {
           {contact.map((e)=>(
             <div className='c_det' key={e.id}>
               <div className='top'>
-                <img src={e.logo} alt={e.contact} />
+                {svg.logo}
                 <h4>{e.contact}</h4>
               </div>
               <p>{e.detail}</p>

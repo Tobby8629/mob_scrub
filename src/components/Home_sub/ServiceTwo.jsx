@@ -1,7 +1,7 @@
 import React from 'react'
 import all from '../asset/combine.png'
 import '../css/services.css'
-import icon from '../asset/service-icon.png'
+import svg from '../asset/svgs'
 
 function ServiceTwo() {
   const service = [
@@ -67,7 +67,7 @@ function ServiceTwo() {
             {service.filter(e =>e.title === 'Housekeeping').map((e)=>(
               <div className="flex" key={e.id}> 
                 <div className= 'imge'>
-                <img src={icon} alt='each'/>
+                 {svg.serviceIcon}
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>
               </div>
@@ -78,7 +78,7 @@ function ServiceTwo() {
             {service.filter(e =>e.title === 'Laundry').map((e)=>(
               <div className="flex" key={e.id}> 
                 <div className= 'imge'>
-                <img src={icon} alt='each'/>
+                 {svg.serviceIcon}
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>
               </div>

@@ -1,0 +1,82 @@
+.discount {
+  background: #fafafa;
+}
+
+.discount h3 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.discount p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(82, 54, 54, 0.85);
+}
+
+.discount_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.2rem 0;
+}
+
+.plans {
+  width: 45%;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.plans h4 {
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #885a5a;
+}
+
+.plans p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #64748b;
+}
+
+@media (min-width: 768px) {
+  .discount {
+    padding: 5rem 0;
+  }
+
+  .discount p {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .discount_wrapper {
+    justify-content: center;
+  }
+
+  .discount_wrapper .plans {
+    width: 19%;
+  }
+
+  .discount .get_price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .discount p {
+    width: 60%;
+    margin: 1rem auto;
+  }
+
+  .discount .get_price {
+    width: 50%;
+  }
+}

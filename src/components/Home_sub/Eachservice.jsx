@@ -1,31 +1,10 @@
-import React from 'react'
-import icon from '../asset/service-icon.png'
+import React, { Suspense } from 'react'
+import svg from '../asset/svgs'
 import pointer from '../asset/pointer.png'
+import { service } from '../asset/Data'
+
 
 function Eachservice() {
-    const service = [
-        {id: 1,
-       title:"Housekeeping",
-       text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
-       image: "housekeeping.png",
-       benefit: ["Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",],
-      },
-   
-      {id: 2,
-       title:"laundry",
-       text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
-       image: "laundry.png",
-       benefit: ["Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-           "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",],
-      },
-   ]
   return (
     <div className='service_wrapper mobile'>
       {service.map((each)=>(
@@ -38,12 +17,14 @@ function Eachservice() {
           </div>
           <p>{each.text}</p>
           <div className='each_image'>
-            <img src={each.image} alt='service-offer' />
+            <Suspense fallback={<div>loading.....</div>}>
+              <each.image width={"100%"} />
+            </Suspense>
           </div>
           {each.benefit.map((e)=>(
               <div className='bene' key={Math.round(Math.random()*100)}> 
                 <div className='imge'>
-                  <img src={icon} alt='each'/>
+                  {svg.serviceIcon}
                 </div>
                 <p>{e}</p>
               </div> 

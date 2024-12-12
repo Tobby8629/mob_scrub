@@ -1,22 +1,19 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import cancel from "./asset/bars.png"
-import bars from "./asset/cancel.png"
-import logo from "./asset/Logo.png"
 import Privacy from './Home_sub/Privacy'
 import Getprice from './Home_sub/Get_price'
-import call from './asset/phone.png'
+import svg from './asset/svgs'
 
 function Nav() {
     const [menu, setmenu] = useState(false)
   return (
     <nav>
       <div className='logo'>
-        <img src={logo}  alt="logo"/>
+        {svg.logo}
       </div>
       <div className="menu">
         <div className='bars' onClick={()=> setmenu(!menu)}>
-            {menu? <img src = {cancel} alt="menubar" /> : <img src = {bars} alt="menubar" />}
+            {menu? svg.cancel : svg.bars}
         </div>
         <div className = {menu ? "show" : "hide"} onClick={()=> setmenu(false)}>
           <ul>
@@ -25,16 +22,18 @@ function Nav() {
             <li><Link to = "/about">about us</Link> </li>
             <li><Link to = "/contact">contact us</Link> </li>
             <li className='mobile flex'>
-              <img src={call} alt='call'/>
+               {svg.phone}
               <p>Call 0123456789</p>
             </li>
           </ul>
-          <Getprice />
-          <Privacy />
+          <div className='mobile'>
+            <Getprice />
+            <Privacy />  
+          </div>
         </div>
       </div>
       <div className='lex'>
-        <img src={call} alt='call'/>
+        {svg.phone}
         <p>Call 0123456789</p>
       </div>
     </nav>

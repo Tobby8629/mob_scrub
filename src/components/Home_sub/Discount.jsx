@@ -1,6 +1,6 @@
 import React from 'react'
 import Getprice from './Get_price'
-import '../css/discount.css'
+import style from '../css/discount.module.css'
 
 function Discount() {
 const plans = [
@@ -21,18 +21,20 @@ const plans = [
     plan:"Monthly service"},
 ]
   return (
-    <section className='discount'>
+    <section className={style.discount}>
       <h3>Housekeeping Discounted plans</h3>
       <p>We offer subscription plans to cater to our clients' regular housekeeping needs. Each plan comes with a corresponding discount.</p>
-      <div className='discount_wrapper'>
+      <div className={style.discount_wrapper}>
         {plans.map((e)=>(
-        <div className='plans' key={e.id}>
+        <div className={style.plans} key={e.id}>
           <h4>{e.discount}</h4>
           <p>{e.plan}</p>
         </div>
         ))}
       </div>
-      <Getprice />
+      <div className={style.get_price}>
+        <Getprice />
+      </div>
     </section>
   )
 }

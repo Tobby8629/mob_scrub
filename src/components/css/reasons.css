@@ -44,10 +44,6 @@
   text-transform: capitalize;
 }
 
-.reason_image {
-  width: 48%;
-  margin: auto;
-}
 
 .reason_image img {
   width: 100%;
@@ -76,6 +72,12 @@
     width: 70%;
     margin: 20px auto;
   }
+
+  .reason_image {
+    width: 460px;
+    height: 500px;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -90,7 +92,7 @@
   }
 
   .eeach {
-    width: 60%;
+    width: 59%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -120,7 +122,7 @@
   }
 
   .reason_image {
-    width: 39%;
+    width: 40%;
     margin: 0;
   }
 
@@ -139,6 +141,6 @@
   }
 
   .reason_wrapper {
-    padding: 4rem 3rem;
+    padding: 4rem 2.5rem;
   }
 }

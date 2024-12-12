@@ -1,0 +1,74 @@
+.comment {
+    padding: 0 1rem;
+    background: 
+      linear-gradient(#ebdad1c6, #EBDAD1c6),
+      url('../asset/comment.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--text-pry);
+  }
+  
+  .comment h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.35px;
+    color: var(--text-pry);
+    padding: 2rem 0;
+  }
+
+  .card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .card h5 {
+    font-family: Ranade;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.66px;
+  }
+
+  .card p {
+    line-height: 26px;
+    font-weight: 200;
+    font-size: 16px;
+    margin: 1.5rem 0;
+  }
+
+  .swiper_ctrl {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+  
+  .swiper_ctrl button {
+    margin-right: 15px;
+    margin-top: 1rem;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+  
+  @media (min-width: 1280px) {
+    .comment h4 {
+      font-size: 35px;
+      margin: 2rem auto;
+    }
+  
+    .comment {
+      padding: 1rem 5%;
+    }
+  }
+  
+  @media (min-width: 1410px) {
+    .comment {
+      padding: 1rem 5%;
+    }
+  }
+  
+  @media (min-width: 1450px) {
+    .comment {
+      padding: 1rem 8%;
+    }
+  }
