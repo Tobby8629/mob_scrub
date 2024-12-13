@@ -21,15 +21,19 @@ function Nav() {
             <li><Link to = "/price">price</Link> </li>
             <li><Link to = "/about">about us</Link> </li>
             <li><Link to = "/contact">contact us</Link> </li>
-            <li className='mobile flex'>
+            <li className='mobile flex' style={{alignItems: "center"}}>
                {svg.phone}
-              <p>Call 0123456789</p>
+              <p style={{marginLeft: "5px"}}>Call 0123456789</p>
             </li>
           </ul>
           <div className='mobile'>
-            <Getprice />
-            <Privacy />  
+          <ul>
+            <li><Link to = "/price"> Get a Price </Link></li>
+            <li><Link to = "/contact">Contact Us</Link> </li>
+          </ul>
+             
           </div>
+          <Privacy />
         </div>
       </div>
       <div className='lex'>

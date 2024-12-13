@@ -51,21 +51,23 @@ export const service = [
    title:"Housekeeping",
    text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
    image: ImageComponent.housekeep,
-   benefit: ["Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",],
+   benefit: [
+      {title: "General Cleaning", text:"This includes dusting surfaces, vacuuming or mopping floors, cleaning windows and mirrors, wiping down furniture, and maintaining overall cleanliness of the living spaces."},
+      {title: "Bathroom Cleaning", text:"Thoroughly cleaning and disinfecting toilets, sinks, showers, bathtubs, and other bathroom fixtures. This also involves cleaning mirrors, countertops, and floors."},
+      {title:"Kitchen Cleaning", text:"Cleaning kitchen countertops, appliances (such as stovetops, ovens, and refrigerators), sinks, and cabinets. It may also involve wiping down kitchen surfaces, cleaning the microwave, and sanitizing kitchen tools."},
+      {title: "Bedroom Cleaning", text: "Dusting furniture, making beds, changing bed linens, and tidying up the room. Vacuuming or mopping floors and cleaning windowsills are also common tasks."}
+    ],
   },
 
   {id: 2,
    title:"laundry",
    text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
    image: ImageComponent.laundry,
-   benefit: ["Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",
-       "Lorem ipsum dolor sit amet consectetur nisi libero egestas natoque",],
+   benefit: [ 
+    {title:"Washing", text: "We follow specific care instructions, including sorting garments by color, fabric type, and washing temperature to prevent color bleeding or damage. We ensure that clothes are thoroughly cleaned, removing dirt, stains, and odors."},
+    {title: "Dry Cleaning", text: "Dry cleaning involves using non-water-based solvents to clean delicate fabrics or items with specific cleaning instructions. It is particularly suitable for garments like suits, dresses, or formal wear that may be damaged or distorted by traditional washing methods."},
+    {title: "Ironing and Pressing", text: "Our professionals use steam irons and pressing techniques to remove wrinkles, creases, and folds from clothes, leaving them crisp and wrinkle-free."},
+    {title:"Folding and Packaging", text: "After clothes are washed, dried, and pressed, we typically fold them neatly and package them for easy handling and storage. We also offer garment storage solutions, such as hangers or garment bags, to keep clothes protected and organized."}
+    ],
   },
 ]

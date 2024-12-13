@@ -13,9 +13,9 @@ function Footer() {
             </div>
             <p>At Scrub and Mob, your hygiene and safety is our priority and we deliver with utmost care and security.</p>
             <div className='soc'>
-              {svg.linkedin}
-              {svg.insta}
-              {svg.twitter}
+              <span>{svg.linkedin}</span>
+              <span>{svg.insta}</span>
+              <span>{svg.twitter}</span>
             </div>
         </div>
         <div className='address chi'>
@@ -30,7 +30,7 @@ function Footer() {
                 <span>example@gmail.com</span>
               </p>
               <p>
-                 {svg.phone}
+                 {svg.footer_phone}
                  <span>0123456789</span>
               </p>
             </div>

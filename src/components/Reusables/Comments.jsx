@@ -16,7 +16,7 @@ const Comment = () => {
 
   return (
     <section className={style.comment}>
-      <h4>Clients love Scrub and Mob💛</h4>
+      <h5>Clients love Scrub and Mob💛</h5>
       <Swiper
         spaceBetween={30}
         slidesPerView={large ? 4 : desktop ? 3 : 1}
@@ -35,7 +35,7 @@ const Comment = () => {
                 laboriosam quasi, velit dolores? Voluptates velit
                 deserunt, iure tempore alias expedita?
             </p>
-            <h5>John Doe</h5>
+            <h4>John Doe</h4>
             <svg width="89" height="16" viewBox="0 0 89 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.5 0L10.2961 5.52786H16.1085L11.4062 8.94427L13.2023 14.4721L8.5 11.0557L3.79772 14.4721L5.59383 8.94427L0.891548 5.52786H6.70389L8.5 0Z" fill="#F8E31A"/>
               <path d="M26.5 0L28.2961 5.52786H34.1085L29.4062 8.94427L31.2023 14.4721L26.5 11.0557L21.7977 14.4721L23.5938 8.94427L18.8915 5.52786H24.7039L26.5 0Z" fill="#F8E31A"/>
@@ -48,19 +48,15 @@ const Comment = () => {
       </Swiper>
       <div className={style.swiper_ctrl}>
         <button disabled={swiperRef.current?.isBeginning} onClick={()=>swiperRef?.current?.slidePrev()} >
-          <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity={swiperRef.current?.isBeginning ? "0.4" : "1"}>
-              <rect width="46" height="46" rx="23" fill="#F6F6F6"/>
-              <path d="M29.5 23H16.5M16.5 23L23 29.5M16.5 23L23 16.5" stroke="#29AAE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </g>
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="52" height="52" rx="26" fill="#F6F6F6" fill-opacity={swiperRef.current?.isBeginning ? "0.4" : "1"}/>
+              <path d="M33 26H19M19 26L26 33M19 26L26 19" stroke= {swiperRef.current?.isBeginning ? "#F5CCC3" : "#885A5A"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
         <button disabled={swiperRef?.current?.isEnd} onClick={()=>swiperRef?.current?.slideNext()}>
-          <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity={swiperRef?.current?.isEnd ? "0.4" : "1"}>
-              <rect width="46" height="46" rx="23" fill="#F6F6F6"/>
-              <path d="M16.5 23H29.5M29.5 23L23 29.5M29.5 23L23 16.5" stroke="#29AAE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </g>
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="52" height="52" rx="26" fill="#F6F6F6" fill-opacity={swiperRef?.current?.isEnd ? "0.4" : "1"}/>
+              <path d="M19 26H33M33 26L26 19M33 26L26 33" stroke={swiperRef.current?.isEnd ? "#F5CCC3" : "#885A5A"} stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </button>
       </div>

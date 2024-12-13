@@ -1,7 +1,8 @@
 .Footer h3 {
   font-size: 16px;
   line-height: 19px;
-  color: #1b1212;
+  color: var(--header);
+  font-family: var(--ranade);
   font-weight: 500;
   margin: 1.5rem 0;
   text-transform: capitalize;
@@ -52,6 +53,10 @@
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
+}
+
+.Footer .one .soc span {
+  margin-right: 10px;
 }
 
 .conts p span {

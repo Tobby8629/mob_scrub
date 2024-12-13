@@ -1,13 +1,75 @@
+
+
 .service {
   padding-top: 2rem;
 }
-
-.service .top {
+.service_wrapper h3 {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.04em;
   color: rgba(82, 54, 54, 0.85);
+}
+
+.each_service {
+  padding-top: 2rem;
+}
+
+.each_image {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.each_image img {
+  width: 100%;
+}
+
+.bene {
+  display: flex;
+  align-items: baseline;
+}
+
+.bene .imge {
+  width: 7%;
+  margin-right: 10px;
+}
+
+.each .top {
+  align-items: center;
+}
+
+.top h4 {
+  font-size: 24px;
+  line-height: 32.88px;
+  font-weight: 500;
+  font-family: var(--ranade);
+  color: var(--header);
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+
+.each_service .img {
+  width: 100%;
+}
+
+.bold {
+font-size: 16px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.04em;
+}
+
+
+.service .top {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.04em;
+text-align: left;
+color: var(--text-p);
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 }
 
 .servicetwo {

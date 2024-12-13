@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Manrope:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap');
 
+@font-face {
+  font-family: 'ranade';
+  src: url('./components/asset/fonts/Ranade_Complete/Fonts/OTF/Ranade-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --text-pry: #8b6060d0;
+  --text-p: rgba(82, 54, 54, 0.85);
   --text-sec: #EBDAD1;
+  --header: rgba(82, 54, 54, 1);  
+  --ranade: "ranade", sans-serif; 
 }
 
 
@@ -44,7 +54,7 @@ nav {
 
 .show {
   position: absolute;
-  height: calc(100vh - 4.5rem);
+  height: calc(100vh - 4.2rem);
   top: 0%;
   right: 0;
   left: 0;
@@ -52,9 +62,9 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-top: 4.5rem;
-  padding: 2rem 1rem;
-  padding-top: 5rem;
+  margin-top: 4.2rem;
+  padding: 1rem;
+  padding-top: 2rem;
   transition: 0.3s linear;
 }
 
@@ -62,15 +72,30 @@ nav {
   color: #523636;
 }
 
+ p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+  margin: 0.3rem 0;
+  color: var(--text-p);
+}
+
 .show li {
   margin: 1.5rem 0;
 }
 
-.show li a {
+.show li a,
+.show li p {
   font-size: 18px;
   font-weight: 500;
   color: #885a5a;
   text-transform: capitalize;
+  font-family: var(--ranade);
+  line-height: 24.66px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
 }
 
 .hide {
@@ -116,11 +141,11 @@ header p {
   line-height: 26px;
 }
 
-.mobile p {
+/* .mobile p {
   margin-left: 5px;
   font-size: 18px;
   color: #885a5a;
-}
+} */
 
 .menu .get_price {
   display: flex;

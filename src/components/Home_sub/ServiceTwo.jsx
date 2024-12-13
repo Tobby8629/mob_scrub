@@ -1,6 +1,6 @@
 import React from 'react'
 import all from '../asset/combine.png'
-import '../css/services.css'
+import style from '../css/services.module.css'
 import svg from '../asset/svgs'
 
 function ServiceTwo() {
@@ -56,28 +56,28 @@ function ServiceTwo() {
 
 ]
   return (
-    <div className='desktop servicetwo'>
-      <div className='two_content'>
-        <div className='img'>
+    <div className={`desktop ${style.servicetwo}`}>
+      <div className={style.two_content}>
+        <div className={style.img}>
             <img src={all} alt="service to choose us" />
         </div>
-        <div className='text'>
-          <div className='laundry'>
+        <div className={style.text}>
+          <div className={style.laundry}>
             <h4>Housekeeping</h4>
             {service.filter(e =>e.title === 'Housekeeping').map((e)=>(
               <div className="flex" key={e.id}> 
-                <div className= 'imge'>
+                <div className={style.image}>
                  {svg.serviceIcon}
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>
               </div>
             ))}
           </div>
-          <div className='laundry'>
+          <div className={style.laundry}>
             <h4>laundry</h4>
             {service.filter(e =>e.title === 'Laundry').map((e)=>(
               <div className="flex" key={e.id}> 
-                <div className= 'imge'>
+                <div className={style.image}>
                  {svg.serviceIcon}
                 </div>
                 <p><span className='main'>{e.topic}</span>:{e.text}</p>
