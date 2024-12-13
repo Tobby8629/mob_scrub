@@ -55,7 +55,7 @@ function Contact() {
           {contact.map((e)=>(
             <div className='c_det' key={e.id}>
               <div className='top'>
-                {svg.logo}
+                {e.logo}
                 <h4>{e.contact}</h4>
               </div>
               <p>{e.detail}</p>

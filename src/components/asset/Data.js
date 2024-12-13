@@ -11,7 +11,7 @@ export const contact = [
     {
      id: 2,
      contact: "Phone number",
-     logo: svg.phone,
+     logo: svg.footer_phone,
      detail: +1234567890
     },
  
