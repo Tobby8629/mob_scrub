@@ -185,7 +185,9 @@ header ul li {
     height: 100%;
   }
 
-  
+  .btn {
+    margin: 1.5rem 0;
+  }
 
   .header_text p {
     font-size: 20px;
