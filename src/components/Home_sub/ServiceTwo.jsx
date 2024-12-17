@@ -69,7 +69,7 @@ function ServiceTwo() {
                 <div className={style.image}>
                  {svg.serviceIcon}
                 </div>
-                <p><span className='main'>{e.topic}</span>:{e.text}</p>
+                <p><span className={style.main}>{e.topic}</span>: {e.text}</p>
               </div>
             ))}
           </div>
@@ -80,7 +80,7 @@ function ServiceTwo() {
                 <div className={style.image}>
                  {svg.serviceIcon}
                 </div>
-                <p><span className='main'>{e.topic}</span>:{e.text}</p>
+                <p><span className={style.main}>{e.topic}</span>: {e.text}</p>
               </div>
             ))}
           </div>

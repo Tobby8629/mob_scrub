@@ -109,10 +109,6 @@ nav {
   right: 10px;
 }
 
-.hex {
-  color: #c4a6a6;
-}
-
 header {
   background: linear-gradient(180deg, rgba(235, 218, 209, 0) 49.93%, rgba(235, 218, 209, 0.3) 100%);
   padding: 1rem;
@@ -125,8 +121,8 @@ header {
 
 header h3 {
   font-size: 32px;
-  text-transform: capitalize;
   margin: 1rem 0;
+  font-family: var(--ranade);
 }
 
 header h4 {
@@ -285,7 +281,7 @@ section h3 {
 
 @media (min-width: 1000px) {
   nav {
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
   }
 
   header h3 {
@@ -303,5 +299,16 @@ section h3 {
 @media (min-width: 1280px) {
   header h3 {
     font-size: 48px;
+  }
+
+  nav {
+    padding: 1rem 5rem;
+  }
+}
+
+
+@media (min-width:1378px) {
+  nav {
+    padding: 1rem 9rem;
   }
 }

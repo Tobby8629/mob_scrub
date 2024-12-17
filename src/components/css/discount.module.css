@@ -57,9 +57,15 @@ text-decoration-skip-ink: none;
     padding: 5rem 0;
   }
 
+  .discount h3,
+  .discount h4 {
+    text-align: center;
+  }
+
   .discount p {
     width: 90%;
     margin: 1rem auto;
+    text-align: center;
   }
 
   .discount_wrapper {
@@ -67,11 +73,11 @@ text-decoration-skip-ink: none;
   }
 
   .discount_wrapper .plans {
-    width: 19%;
+    width: 22%;
   }
 
   .discount .get_price {
-    width: 100%;
+    width: 50%;
     display: flex;
     justify-content: center;
     margin: 1rem auto;
@@ -80,11 +86,31 @@ text-decoration-skip-ink: none;
 
 @media (min-width: 1000px) {
   .discount p {
-    width: 60%;
+    width: 65%;
     margin: 1rem auto;
   }
 
+  .discount .plans {
+    width: 20%;
+  }
+
+  .discount .plans p {
+    width: 80%;
+  }
+
   .discount .get_price {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  .discount p {
     width: 50%;
+    margin: 1rem auto;
+  }
+  
+  .discount .plans {
+    width: 15%;
   }
 }

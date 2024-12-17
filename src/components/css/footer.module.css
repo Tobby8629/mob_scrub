@@ -1,3 +1,7 @@
+.Footer {
+  padding-top: 5rem;
+}
+
 .Footer h3 {
   font-size: 16px;
   line-height: 19px;
@@ -32,7 +36,7 @@
   line-height: 25px;
   color: #5b5b5b;
   opacity: 0.6;
-  width: 75%;
+  width: 85%;
 }
 
 .Footer .one .image {

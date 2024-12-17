@@ -17,11 +17,13 @@ function Home() {
         <div className={style.header_text}>
         <h3><span className={style.hex}>First class</span> cleaning service for your home</h3>
         <p>Scrub and Mob is your secret weapon in the fight against grime, dirt and clutter. Our team of expert is armed with top-notch cleaning tools and techniques to ensure your home is spotless and shinning.</p>
-        <Getprice />
-        <ul className='desktop'>
-          <li> <span className={style.solid}>100+</span> Total Client</li>
-          <li> <span className={style.solid}>50+</span> employees</li>
-          <li> <span className={style.solid}>5+</span> years experience</li>
+        <div className={style.btn}>
+          <Getprice />
+        </div>
+        <ul className={`${style.achieve} desktop`}>
+          <li><span className={style.solid}>100+</span> Total Client</li>
+          <li><span className={style.solid}>50+</span> employees</li>
+          <li><span className={style.solid}>5+</span> years experience</li>
         </ul>
         </div>
         <div className={`${style.image} mobile`}>

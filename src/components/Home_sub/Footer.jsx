@@ -1,30 +1,30 @@
 import React from 'react'
-import '../css/footer.css'
+import style from '../css/footer.module.css'
 import Privacy from '../Home_sub/Privacy'
 import svg from '../asset/svgs'
 
 function Footer() {
   return (
-    <section className='Footer'>
-      <div className='top'>
-        <div className='one'>
-            <div className='image'>
+    <section className={style.Footer}>
+      <div className={style.top}>
+        <div className={style.one}>
+            <div className={style.image}>
             {svg.logo}
             </div>
             <p>At Scrub and Mob, your hygiene and safety is our priority and we deliver with utmost care and security.</p>
-            <div className='soc'>
+            <div className={style.soc}>
               <span>{svg.linkedin}</span>
               <span>{svg.insta}</span>
               <span>{svg.twitter}</span>
             </div>
         </div>
-        <div className='address chi'>
+        <div className={`${style.address} ${style.chi}`}>
             <h3>office address</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut.</p>
         </div>
-        <div className='cont chi'>
+        <div className={`${style.cont} ${style.chi}`}>
             <h3>contact us</h3>
-            <div className='conts'>
+            <div className={style.conts}>
               <p>
                 {svg.mail}
                 <span>example@gmail.com</span>
@@ -35,23 +35,23 @@ function Footer() {
               </p>
             </div>
         </div>
-        <div className='serv chi'>
+        <div className={`${style.serv} ${style.chi}`}>
             <h3>our services</h3>
-            <div className='ser'>
+            <div className={style.ser}>
               <p>Housekeeping</p>
               <p>Laundry</p>
             </div>
         </div>
-        <div className='work chi'>
+        <div className={`${style.work} ${style.chi}`}>
             <h3>working hours</h3>
-            <div className='day'>
+            <div className={style.day}>
               <p>Mon - Fri: 8:00am - 5:00pm</p>
               <p>Sat - Sun: closed</p>
             </div>
         </div>
       </div>
      
-     <div className='down'>
+     <div className={style.down}>
        <Privacy />
      </div>
 
