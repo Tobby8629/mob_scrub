@@ -71,3 +71,22 @@ export const service = [
     ],
   },
 ]
+
+export const homeHeaderText = `
+ Scrub and Mob is your secret weapon in the fight 
+ against grime, dirt and clutter. Our team of expert 
+ is armed with top-notch cleaning tools and 
+ techniques to ensure your home is spotless and shinning.
+`
+export const aboutHeaderText = `
+Lorem ipsum dolor sit amet consectetur. 
+Egestas risus ut convallis risus quis. 
+In sem ut sem molestie eu blandit. In metus ac ut 
+aliquet. Odio dis felis donec ullamcorper faucibus rhoncus.
+ Nulla lacus risus in consequat. Faucibus at sed gravida 
+ varius. Placerat posuere consectetur tellus sit etiam 
+ proin mattis enim cursus. Leo fusce nunc nibh posuere 
+ nullam turpis donec faucibus. Faucibus 
+tellus ac parturient massa nisi scelerisque cursus.
+`
+

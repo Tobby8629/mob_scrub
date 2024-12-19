@@ -1,27 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './css/price.css'
-import price from './asset/price.png'
+import style from './css/price.module.css'
 import Discount from './Home_sub/Discount'
 import Footer from './Home_sub/Footer'
 import Pricelist from './Home_sub/Pricelist'
 import Sum from './Home_sub/Sum'
+import Header from './Reusables/Header/Header'
+import { homeHeaderText } from './asset/Data'
+import Button from './Reusables/Button'
+import { PNG } from './asset/pngs'
+import { HeaderT } from './Home_sub/Achievement'
 
 function Price() {
   return (
-    <section className='price'>
-      <header>
-       <div className='price_left'>
-          <h4>pricing</h4>
-          <h3>Get our services at an <span className='hex'>affordable price</span> </h3>
-          <p>Scrub and Mob is your secret weapon in the fight against grime, dirt and clutter. Our team of expert is armed with top-notch cleaning tools and techniques to ensure your home is spotless and shinning.</p>
-          <button><Link to="/contact">Contact us</Link></button>
-       </div>
-        
-        <div className='image'>
-          <img src={price} alt='priceimage' />
-        </div>
-      </header>
+    <section className={style.price}>
+      <Header 
+        page={"PRICING"}
+        headerTitle={<HeaderT />}
+        headerText={homeHeaderText}
+        btn={
+        <Button>
+          <Link to="/contact">Contact us</Link>
+        </Button>
+        }
+        desktopImage={
+          <img src={PNG.price} alt='Our prices' width={"100%"} height={"100%"} />
+        }
+        customizeDesk={style.image}
+      />
       <Pricelist />
       <Sum />
       <Discount />

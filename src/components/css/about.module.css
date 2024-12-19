@@ -1,0 +1,175 @@
+.about {
+  padding: 0;
+  padding-top: 8rem;
+  overflow: hidden;
+}
+
+.about header{
+  padding: 0;
+  background-color: transparent;
+}
+
+.eclipse {
+  position: absolute;
+  z-index: -99; 
+  bottom: -130px;
+  right: -60px;
+}
+
+.teamWrapper {
+  margin-top: 8rem;
+}
+
+.teamWrapper h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: var(--ranade);
+}
+
+.team {
+  margin: 3rem 0;
+}
+
+.team h3 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 38px;
+  color: #523636;
+  padding-top: 3rem;
+  margin: 3rem 0;
+}
+
+.each_team h3 {
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.each_team p {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #5b5c6c;
+}
+
+.about .Footer {
+  padding: 5rem 1rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .about header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .about header div:first-child {
+    width: calc(100% - 280px);
+    margin-right: 5px;
+  }
+
+  .about header div:first-child p {
+    margin: 0;
+  }
+
+  .eclipse {
+    position: absolute;
+    z-index: -99; 
+    bottom: -150px;
+    right: -150px;
+    width: 220px;
+  }
+
+  .teamWrapper {
+    margin-top: 3rem;
+    padding: 0 2rem;
+  }
+
+  
+
+  .image {
+   height: 292px;
+   width: 280px;
+  }
+
+
+  .team {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem 4rem; */
+  }
+
+  .each_team {
+    width: 32%;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .eclipse {
+    position: absolute;
+    z-index: -99; 
+    bottom: -110px;
+    right: -140px;
+    width: 265px;
+  }
+
+  .teamWrapper {
+    margin-top: 0;
+  }
+
+  .teamWrapper h3 {
+    margin-top: 0;
+  }
+
+  .image {
+    width: 400px;
+    height: 290px;
+    margin-right: 2rem;
+  }
+
+  .about header div:first-child {
+    width: calc(100% - 400px);
+    margin-right: 2rem;
+  }
+
+  .about_header {
+    width: 50%;
+  }
+
+  .about .Footer {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (min-width: 1280px) {
+ 
+  .about_header {
+    width: 47%;
+  }
+
+  .image {
+    width: 423px;
+    margin-right: 5rem
+  }
+
+  .about header div:first-child {
+    width: calc(90% - 450px);
+    margin-right: 4rem;
+  }
+
+  .eclipse {
+    position: absolute;
+    z-index: -99; 
+    bottom: -100px;
+    right: -130px;
+    width: 270px;
+  }
+}

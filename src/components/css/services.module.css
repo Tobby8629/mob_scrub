@@ -152,6 +152,10 @@ text-decoration-skip-ink: none;
     display: flex;
     justify-content: space-between;
   }
+
+  .laundry h4 {
+    font-size: 22px;
+  }
   
   .two_content .img {
     display: block;
@@ -218,6 +222,8 @@ text-decoration-skip-ink: none;
     padding: 2.5rem 10rem;
   }
 
+
+
   .service .top {
     font-size: 22px;
     line-height: 38px;
@@ -230,5 +236,9 @@ text-decoration-skip-ink: none;
 
   .laundry .main {
     font-size: 18px;
+  }
+
+  .laundry h4 {
+    font-size: 25px;
   }
 }

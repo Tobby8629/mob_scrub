@@ -1,0 +1,108 @@
+.price {
+  padding: 0;
+  padding-top: 8rem;
+}
+
+.price header {
+  padding: 0;
+}
+
+
+.price header a {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #f8ba3f;
+  border: 1px solid #f8ba3f;
+  border-radius: 8px;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1rem 1.5rem;
+}
+
+.price .Footer,
+.price .discount {
+  padding: 3rem 1rem;
+}
+
+.price .Footer {
+  padding-bottom: 0;
+}
+
+
+@media (min-width: 768px) {
+
+  .price header div:first-child  {
+    width: calc(97% - 270px);
+    margin-right: 2.5rem;
+  }
+
+  .price .image {
+    width: 280px;
+    height: 280px;
+    margin-right: 2rem;
+  }
+
+  .price .image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .price .Footer {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .price {
+    padding: 0;
+    padding-top: 8rem;
+  }
+
+  
+  .price .image {
+    width: 320px;
+    height: 320px;
+    margin-right: 3rem;
+  }
+
+  .price header div:first-child  {
+    width: calc(85% - 320px);
+    margin-right: 2.5rem;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .price .image {
+    width: 350px;
+    height: 350px;
+    margin-right: 5rem;
+  }
+
+  .price header div:first-child  {
+    width: calc(80% - 350px);
+    margin-right: 2.5rem;
+  }
+
+  .price .Footer {
+    padding: 1rem 5rem;
+  }
+}
+
+@media (min-width:1378px) {
+  .price header div:first-child  {
+    width: calc(78% - 500px);
+    margin-right: 2.5rem;
+  }
+
+  .price .image {
+    width: 500px;
+    height: 500px;
+    margin-right: 9rem;
+  }
+
+  .price .Footer {
+    padding: 1rem 5rem;
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react'
-import header from './asset/abt (1).png'
-import './css/about.css'
+import style from './css/about.module.css'
 import Footer from './Home_sub/Footer'
 import Freedom from './Home_sub/Freedom'
+import Header from './Reusables/Header/Header'
+import { aboutHeaderText } from './asset/Data'
+import { ImageComponent } from './asset/imageComponent/Index'
+import svg from './asset/svgs'
+import UseResize from './Reusables/UseResize'
 
 export default function About() {
 
@@ -28,23 +32,28 @@ export default function About() {
 
   ]
 
+  const {desktop,large} = UseResize()
+
   return (
-    <section className='about'>
-      <header>
-        <div className='about_header'>
-          <h4>OUR STORY</h4>
-          <h3>About Scrub & Mob</h3>
-          <p>Lorem ipsum dolor sit amet consectetur. Egestas risus ut convallis risus quis. In sem ut sem molestie eu blandit. In metus ac ut aliquet. Odio dis felis donec ullamcorper faucibus rhoncus. Nulla lacus risus in consequat. Faucibus at sed gravida varius. Placerat posuere consectetur tellus sit etiam proin mattis enim cursus. Leo fusce nunc nibh posuere nullam turpis donec faucibus. Faucibus tellus ac parturient massa nisi scelerisque cursus.</p>
+    <section className={style.about}>
+      <Header 
+       page={"OUR STORY"}
+       headerTitle={"About Scrub & Mob"}
+       headerText={aboutHeaderText}
+       customizeDesk={style.image}
+       style={{position: "relative",}}
+       mobileImage={<ImageComponent.AboutMobile  width={"100%"} height={"100%"}/>}
+       desktopImage={<ImageComponent.AboutDesktop width={"100%"} height={"100%"}/>}
+      >
+        <div className={style.eclipse}>
+          {desktop || large ? svg.eclipseDesktop : svg.eclipseMobile}
         </div>
-        <div className='image'>
-          <img src={header} alt = "banner" />
-        </div>
-      </header>
-      <>
-        <h3 className='sum_h3'>Meet the team</h3>
-        <div className='team'>
+      </Header>
+      <div className={style.teamWrapper}>
+        <h3 className={style.sum_h3}>Meet the team</h3>
+        <div className={style.team}>
           {team.map((e)=>(
-             <div className='each_team' key={e.id}>
+             <div className={style.each_team} key={e.id}>
                 <div className="image">
                   <img src ={e.image} alt={e.position} />
                 </div>
@@ -53,13 +62,9 @@ export default function About() {
              </div>
           ))}
         </div>
-      </>
-      
-
+      </div>
       <Freedom />
-
       <Footer />
-      
     </section>
   )
 }

@@ -92,18 +92,24 @@
     }
   
     .comment {
-      padding: 1rem 5%;
+      padding: 2.5rem 5%;
     }
+
+    .swiper_ctrl {
+      top: 1.7rem
+    }
+
+    
   }
   
   @media (min-width: 1410px) {
-    .comment {
-      padding: 1rem 5%;
-    }
+    /* .comment {
+      padding: 2rem 5%;
+    } */
   }
   
   @media (min-width: 1450px) {
-    .comment {
+    /* .comment {
       padding: 1rem 8%;
-    }
+    } */
   }
