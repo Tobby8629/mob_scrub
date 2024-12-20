@@ -54,7 +54,7 @@ export default function About() {
         <div className={style.team}>
           {team.map((e)=>(
              <div className={style.each_team} key={e.id}>
-                <div className="image">
+                <div className={style.image}>
                   <img src ={e.image} alt={e.position} />
                 </div>
                 <h3>{e.name}</h3>

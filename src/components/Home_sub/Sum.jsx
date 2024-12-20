@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import style from "../css/pricelist.module.css"
+
 
 function Sum() {
   const [total, settotal] = useState(0)
@@ -37,39 +39,39 @@ function Sum() {
   
   return (
     <>
-      <h3 className='sum_h3'>Sum it up!</h3>
-      <div className='sum'>
-      <div className='sub housekeeping'> 
+      <h3 className={style.sum_h3}>Sum it up!</h3>
+      <div className={style.sum}>
+      <div className={`${style.sub} ${style.housekeeping}`}> 
         <h4>Housekeeping</h4>
-        <div className='form_flex'>
+        <div className={style.form_flex}>
           <div>
-            <label className='tt' htmlFor = "bedroom">Bedroom</label>
-            <label htmlFor="bedroom" className='input'>
-              <input type='number' className='no-arrow-input' id='bedroom' value={room}  onChange={(e) => {e.target.style.width = `${e.target.value.length * 10}px`; setroom(e.target.value); updatedis(e,5)}} onKeyUp={update} />Bedroom
+            <label className={style.tt} htmlFor = "bedroom">Bedroom</label>
+            <label htmlFor="bedroom" className={style.input}>
+              <input type='number' className={style.no_arrow_input} id='bedroom' value={room}  onChange={(e) => {e.target.style.width = `${e.target.value.length * 10}px`; setroom(e.target.value); updatedis(e,5)}} onKeyUp={update} />Bedroom
             </label>
             <span id='dis'></span>
           </div>
           <div>
-          <label className='tt' htmlFor = "living room">Living Bedroom</label>
-          <label htmlFor="living room" className='input'>
-            <input type='number' className='no-arrow-input' id='living room' value={palour}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setpalour(e.target.value); updatedis(e,3)}} onKeyUp={update} /> living room
+          <label className={style.tt} htmlFor = "living room">Living Bedroom</label>
+          <label htmlFor="living room" className={style.input}>
+            <input type='number' className={style.no_arrow_input} id='living room' value={palour}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setpalour(e.target.value); updatedis(e,3)}} onKeyUp={update} /> living room
           </label>
           <span id='dis'></span>
         </div>
         </div>
         
-        <div className='form_flex'>
+        <div className={style.form_flex}>
           <div>
-            <label className='tt' htmlFor = "kitchen">Kitchen</label>
-              <label htmlFor="kitchen" className='input'>
-                <input type='number' className='no-arrow-input' id='kitchen' value={cloth}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setcloth(e.target.value); updatedis(e,3)}} onKeyUp={update} /> kitchen
+            <label className={style.tt} htmlFor = "kitchen">Kitchen</label>
+              <label htmlFor="kitchen" className={style.input}>
+                <input type='number' className={style.no_arrow_input} id='kitchen' value={cloth}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setcloth(e.target.value); updatedis(e,3)}} onKeyUp={update} /> kitchen
               </label>
               <span id='dis'></span>
             </div>
           <div>
-            <label className='tt' htmlFor = "bathroom">bathroom</label>
-              <label htmlFor="bathroom" className='input'>
-                <input type='number' className='no-arrow-input' id='bathroom' value={food}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setfood(e.target.value); updatedis(e,5)}} onKeyUp={update} /> bathroom 
+            <label className={style.tt} htmlFor = "bathroom">bathroom</label>
+              <label htmlFor="bathroom" className={style.input}>
+                <input type='number' className={style.no_arrow_input} id='bathroom' value={food}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setfood(e.target.value); updatedis(e,5)}} onKeyUp={update} /> bathroom 
               </label>
               <span id='dis'></span>
             </div>
@@ -77,18 +79,18 @@ function Sum() {
         
       </div>
 
-      <div className='sub laundry'>
+      <div className={`${style.sub} ${style.laundry}`}>
         <h4>laundry</h4>
          <div>
-          <label htmlFor="laundry" className='input'>
-            <input type='number' className='no-arrow-input' id='laundry' value={shower}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setshower(e.target.value); updatedis()}} onKeyUp={update} />  set
+          <label htmlFor="laundry" className={style.input}>
+            <input type='number' className={style.no_arrow_input} id='laundry' value={shower}  onChange={(e)=>{e.target.style.width = `${e.target.value.length * 10}px`;setshower(e.target.value); updatedis()}} onKeyUp={update} />  set
           </label>
          </div>
       </div>
 
       <p>Estimated price:</p>
 
-      <p>${total}</p>
+      <p className={style.total}>${total}</p>
     </div>
     </>
     

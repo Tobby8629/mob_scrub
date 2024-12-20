@@ -1,6 +1,17 @@
 .discount {
   background: #fafafa;
+  padding-bottom: 3.5rem ;
   padding-top: 4rem;
+  position: relative;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  /* z-index: -1; */
+  right: 0;
+  bottom: 0;
 }
 
 .discount h3 {
@@ -51,6 +62,8 @@ text-decoration-skip-ink: none;
   letter-spacing: 0.04em;
   color: #64748b;
 }
+
+
 
 @media (min-width: 768px) {
   .discount {

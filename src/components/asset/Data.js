@@ -5,7 +5,7 @@ export const contact = [
     {
      id: 1,
      contact: "Office address",
-     logo: 'office.png',
+     logo: svg.office,
      detail: "Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut."
     },
     {

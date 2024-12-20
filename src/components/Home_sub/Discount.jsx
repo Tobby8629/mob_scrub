@@ -1,6 +1,7 @@
 import React from 'react'
 import Getprice from './Get_price'
 import style from '../css/discount.module.css'
+import svg from '../asset/svgs'
 
 function Discount() {
 const plans = [
@@ -34,6 +35,9 @@ const plans = [
       </div>
       <div className={style.get_price}>
         <Getprice />
+      </div>
+      <div className={style.circle}>
+        {svg.circlehole}
       </div>
     </section>
   )

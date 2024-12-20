@@ -4,3 +4,8 @@
   border: none;
   outline: none;
 }
+
+.button a,
+.button {
+  font-family: var(--text-p);
+}

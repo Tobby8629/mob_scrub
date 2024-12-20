@@ -4,17 +4,49 @@
 }
 
 .contact header {
-  background: #ffff;
+  /* background: #ffff; */
+  min-height: calc(50vh - 8rem);
+  padding: 1rem;
+  position: relative;
 }
 
-.contact h4,
-.contact h3,
-.contact p {
-  text-align: center;
+.circle {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  z-index: -9;
 }
 
-.contact h4 {
-  margin-left: 7px;
+.contact header h3 {
+  font-family: var(--ranade);
+font-size: 32px;
+font-weight: 500;
+line-height: 43.84px;
+text-align: center;
+
+}
+
+.contact header p {
+font-family: Manrope;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0.04em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.contact header h4 {
+  color:#f8ba3f;;
+font-family: var(--ranade);
+font-size: 15px;
+font-weight: 500;
+line-height: 16.44px;
+letter-spacing: 0.02em;
+text-align: center;
+
 }
 
 .contact form {
@@ -32,6 +64,7 @@
 .form_input label {
   font-size: 16px;
   line-height: 22px;
+  font-family: var(--ranade);
   color: #523636;
 }
 
@@ -63,11 +96,21 @@
   background: #f8ba3f;
   border: 1px solid #f8ba3f;
   border-radius: 8px;
+  font-family: var(--ranade);
 }
 
 .contact_detail {
   padding: 1rem;
   padding-bottom: 2rem;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  bottom: 0;
+  left: -20px;
 }
 
 .contact_detail p,
@@ -97,6 +140,10 @@
 .c_det .top {
   display: flex;
   align-items: center;
+}
+
+.top svg {
+  margin-right: 10px;
 }
 
 .contact .Footer {

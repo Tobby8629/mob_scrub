@@ -10,6 +10,8 @@
   color: #fff;
   text-align: left;
   font-weight: 400;
+  font-size: 28px;
+  font-family: var(--ranade);
 }
 
 .freedom p {
@@ -24,16 +26,19 @@
   margin: 2rem 0;
 }
 
-.freedom .get_price a {
-  font-size: 20px;
-  font-weight: 600;
+.btn {
+  margin: 1.7rem 0;
+}
+
+.btn a {
+  font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.04em;
   color: #885a5a;
   background-color: white;
 }
 
-.freedom .get_price a:last-child {
+.btn a:last-child {
   background-color: transparent;
   border-color: white;
   color: #ffff;

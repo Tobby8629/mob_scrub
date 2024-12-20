@@ -1,12 +1,17 @@
 .pricelist {
   overflow: hidden;
-  padding-top: 3rem;
+  min-height: 50vh;
+  background: linear-gradient(108.8deg, rgba(255, 255, 255, 0.3) 0%, rgba(248, 238, 238, 0.378) 99.99%);
 }
 
-.pricelist h3 {
-  font-size: 20px;
-  text-transform: capitalize;
+.pricelist h3,
+.sum_h3 {
+  font-family: var(--ranade);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38.36px;
   text-align: center;
+  margin: 2rem 0;
 }
 
 th:first-child,
@@ -26,14 +31,25 @@ td:first-child {
 }
 
 .pricelist th {
-  font-weight: 500;
-  padding: 10px 0;
-  line-height: 22px;
-  color: #523636;
+  font-family: var(--ranade);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.92px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+
+.pricelist tbody tr:nth-child(1) {
+  background-color: rgba(246, 246, 246, 1);
+
 }
 
 .pricelist .solid {
-  font-weight: 600;
+  font-weight: 500;
+  font-family: var(--header);
+
 }
 
 .pricelist table td {
@@ -84,11 +100,23 @@ td:first-child {
 }
 
 .ici h4 {
-  font-size: 15px;
-  line-height: 25px;
-  margin-left: 5px;
-  color: #885a5a;
-  text-transform: capitalize;
+  font-family: var(--ranade);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.66px;
+  color: var(--header);
+}
+
+.small {
+font-family: var(--pry-font);
+font-size: 13px;
+text-transform: capitalize;
+font-weight: 400;
+line-height: 24.66px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 .price_desktop {
@@ -121,6 +149,7 @@ td:first-child {
   border-radius: 8px;
   margin: 10px 0;
   margin-bottom: 20px;
+  font-family: var(--ranade);
 }
 
 .input input {
@@ -146,6 +175,7 @@ td:first-child {
   color: #fff;
   text-transform: capitalize;
   margin: 1.5rem 0;
+  font-family: var(--ranade);
 }
 
 .sum p {
@@ -161,8 +191,9 @@ td:first-child {
   padding: 0 1rem;
 }
 
-.no-arrow-input {
+.no_arrow_input {
   -moz-appearance: textfield;
+  font-family: var(--ranade);
 }
 
 .no-arrow-input::-webkit-inner-spin-button,
@@ -170,6 +201,11 @@ td:first-child {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.total {
+  font-family: var(--ranade);
+}
+
 
 @media (min-width: 768px) {
   .sum_h3 {
