@@ -72,6 +72,34 @@ export const service = [
   },
 ]
 
+export const services = [
+  {
+    name: "bedroom",
+    discount:3,
+    price: 30,
+    placeholder: "bedroom"
+  },
+  {
+    name: "livingroom",
+    discount:3,
+    price: 40,
+    placeholder: "living room"
+  },
+  {
+    name: "kitchen",
+    discount:3,
+    price: 30,
+    placeholder: "kitchen"
+  },
+
+  {
+    name: "bathroom",
+    discount:5,
+    price: 20,
+    placeholder: "bathroom"
+  },
+]
+
 export const homeHeaderText = `
  Scrub and Mob is your secret weapon in the fight 
  against grime, dirt and clutter. Our team of expert 

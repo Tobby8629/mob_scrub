@@ -123,6 +123,10 @@ text-decoration-skip-ink: none;
   display: none;
 }
 
+.each {
+  margin-bottom: 1rem;
+}
+
 .sum {
   background: #c4a6a6;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -148,7 +152,6 @@ text-decoration-skip-ink: none;
   padding: 1rem;
   border-radius: 8px;
   margin: 10px 0;
-  margin-bottom: 20px;
   font-family: var(--ranade);
 }
 
@@ -269,6 +272,7 @@ text-decoration-skip-ink: none;
   .form_flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 1.5rem;
   }
 

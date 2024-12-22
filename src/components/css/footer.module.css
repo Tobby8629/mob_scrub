@@ -71,13 +71,19 @@
 
 .down .privacy {
   border-top: 2px solid rgba(170, 170, 170, 0.396);
-  padding: 0.5rem;
+  margin-top: 2.5rem;
+  padding-top: .5rem;
+  font-family: var(--ranade);
 }
 
 .down .privacy .pri {
   display: flex;
   align-items: center;
   margin: 1rem 0;
+}
+
+.down .privacy p {
+  font-family: var(--ranade);
 }
 
 .down .privacy .pri p:last-child {
