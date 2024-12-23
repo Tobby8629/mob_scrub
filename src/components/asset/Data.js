@@ -123,4 +123,24 @@ aliquet. Odio dis felis donec ullamcorper faucibus rhoncus.
  nullam turpis donec faucibus. Faucibus 
 tellus ac parturient massa nisi scelerisque cursus.
 `
+export const team = [
+  {
+    id: 1,
+    name: "john doe",
+    position: "Founder/Ceo",
+    image: "abt (4).png"
+  },
+  {
+    id: 2,
+    name: "Ken ojo",
+    position: "Operation manager",
+    image: "abt3.png"
+  },
+  {
+    id: 1,
+    name: "Zainab Abdul",
+    position: "marketing manager",
+    image: "abt (2).png"
+  }
 
+]
