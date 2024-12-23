@@ -24,11 +24,13 @@
   align-items: baseline;
 }
 
-.Footer .privacy p {
+.privacy p {
   color: #523636;
   mix-blend-mode: normal;
   opacity: 0.6;
   font-size: 14px;
+  font-family: var(--ranade);
+  
 }
 
 .Footer .one p {
@@ -76,7 +78,8 @@
   font-family: var(--ranade);
 }
 
-.down .privacy .pri {
+.down .privacy .pri,
+.privacy .pri {
   display: flex;
   align-items: center;
   margin: 1rem 0;
@@ -86,7 +89,8 @@
   font-family: var(--ranade);
 }
 
-.down .privacy .pri p:last-child {
+.down .privacy .pri p:last-child,
+.privacy .pri p:last-child {
   margin-left: 20px;
 }
 

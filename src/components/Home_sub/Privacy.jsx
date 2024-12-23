@@ -3,7 +3,7 @@ import style from '../css/footer.module.css'
 
 function Privacy() {
   return (
-    <div className={`${style.privacy} privacy`}>
+    <div className={`${style.privacy}`}>
       <div className={style.pri}>
         <p>privacy policy</p>
         <p>Terms and condition</p>
