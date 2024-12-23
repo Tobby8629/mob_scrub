@@ -26,11 +26,11 @@ function Contact() {
               <input id='Last' type='text' placeholder='Last name' />
             </div>
         </div>
-          <div className={`${style.form_input } mobile`}>
+          <div className={`${style.mobform_input } mobile`}>
             <label htmlFor='first'>First name</label>
             <input id='first' type='text' />
           </div>
-          <div className={`${style.form_input} mobile`}>
+          <div className={`${style.mobform_input} mobile`}>
             <label htmlFor='Last'>Last name</label>
             <input id='Last' type='text' />
           </div>
@@ -58,7 +58,7 @@ function Contact() {
           {contact.map((e)=>(
             <div className={style.c_det} key={e.id}>
               <div className={style.top}>
-                {e.logo}
+                {e.logoC}
                 <h4>{e.contact}</h4>
               </div>
               <p>{e.detail}</p>

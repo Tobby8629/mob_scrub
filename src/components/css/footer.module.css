@@ -170,3 +170,10 @@
     width: 15%;
   }
 }
+
+
+@media (min-width: 1378px) {
+  .Footer {
+    padding: 5rem 9rem;
+  }
+}

@@ -5,13 +5,15 @@ export const contact = [
     {
      id: 1,
      contact: "Office address",
-     logo: svg.office,
+     logoC: svg.officeC,
+    //  logoC: svg.officeC,?\
      detail: "Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut."
     },
     {
      id: 2,
      contact: "Phone number",
      logo: svg.footer_phone,
+     logoC: svg.phoneC,
      detail: +1234567890
     },
  
@@ -19,6 +21,7 @@ export const contact = [
      id: 3,
      contact: "Email",
      logo: svg.mail,
+     logoC: svg.emailC,
      detail: "scrub&mob@gmail.com"
     },
     
@@ -27,6 +30,7 @@ export const contact = [
      id: 4,
      contact: "Instagram",
      logo: svg.insta,
+     logoC: svg.instaC,
      detail: "@scrub&mob",
     },
  
@@ -34,6 +38,7 @@ export const contact = [
      id: 5,
      contact: "Twitter",
      logo: svg.twitter,
+     logoC: svg.twitterC,
      detail: "@scrub&mob"
     },
  
@@ -41,6 +46,7 @@ export const contact = [
      id: 6,
      contact: "LinkedIn",
      logo: svg.linkedin,
+     logoC: svg.linkeInC,
      detail: "@scrub&mob"
     },
  

@@ -42,6 +42,7 @@
   background-color: transparent;
   border-color: white;
   color: #ffff;
+  line-height: 30px;
 }
 
 @media (min-width: 768px) {
@@ -83,6 +84,11 @@
     color: #fff;
     margin: 1rem 0;
   }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -103,7 +109,7 @@
 
 @media (min-width: 1280px) {
   .freedom .freedom_content {
-    width: 50%;
+    width: 52%;
     margin: auto;
   }
 
@@ -111,4 +117,27 @@
     width: 80%;
     margin: auto;
   }
+}
+
+
+@media (min-width: 1378px) {
+  .freedom .freedom_content {
+    width: 40%;
+    margin: auto;
+  } 
+
+  .freedom p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .freedom h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin: 1rem 0;
+  }
+
 }
