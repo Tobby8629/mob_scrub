@@ -8,9 +8,9 @@ function Nav() {
     const [menu, setmenu] = useState(false)
   return (
     <nav>
-      <div className='logo'>
+      <Link to={"/"} className='logo'>
         {svg.logo}
-      </div>
+      </Link>
       <div className="menu">
         <div className='bars' onClick={()=> setmenu(!menu)}>
             {menu? svg.cancel : svg.bars}
