@@ -33,7 +33,10 @@ function Nav() {
           </ul>
              
           </div>
-          <Privacy />
+          <div className='mobile'>
+            <Privacy />
+          </div>
+          
         </div>
       </div>
       <div className='lex'>
