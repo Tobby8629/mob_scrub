@@ -8,12 +8,11 @@
   text-align: center;
   font-size: 25px;
   font-family: var(--ranade);
-font-weight: 600;
-line-height: 38.36px;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-weight: 600;
+  line-height: 38.36px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 
@@ -46,7 +45,7 @@ text-decoration-skip-ink: none;
   border-radius: 7px;
 }
 
-.each_reason h4 {
+.each_reason xh4 {
   margin-bottom: 12px;
   text-transform: capitalize;
 }
@@ -116,6 +115,11 @@ text-decoration-skip-ink: none;
   .reason .top {
     width: 50%;
     margin: auto;
+  }
+
+  .reason .top {
+    font-size: 20px;
+    line-height: 33px;
   }
 
   .reason h3 {
