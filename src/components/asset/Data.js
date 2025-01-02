@@ -7,7 +7,11 @@ export const contact = [
      contact: "Office address",
      logoC: svg.officeC,
     //  logoC: svg.officeC,?\
-     detail: "Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut."
+     detail: `
+4567 Elm Street,
+Tech Hub, Manchester,
+M1 2AB,
+United Kingdom`
     },
     {
      id: 2,
@@ -55,7 +59,6 @@ export const contact = [
 export const service = [
     {id: 1,
    title:"Housekeeping",
-   text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
    image: ImageComponent.housekeep,
    benefit: [
       {title: "General Cleaning", text:"This includes dusting surfaces, vacuuming or mopping floors, cleaning windows and mirrors, wiping down furniture, and maintaining overall cleanliness of the living spaces."},
@@ -67,7 +70,6 @@ export const service = [
 
   {id: 2,
    title:"laundry",
-   text: "Lorem ipsum dolor sit amet consectetur. Posuere ut justo odio sit. Amet lacus amet viverra sapien;",
    image: ImageComponent.laundry,
    benefit: [ 
     {title:"Washing", text: "We follow specific care instructions, including sorting garments by color, fabric type, and washing temperature to prevent color bleeding or damage. We ensure that clothes are thoroughly cleaned, removing dirt, stains, and odors."},
@@ -113,15 +115,12 @@ export const homeHeaderText = `
  techniques to ensure your home is spotless and shinning.
 `
 export const aboutHeaderText = `
-Lorem ipsum dolor sit amet consectetur. 
-Egestas risus ut convallis risus quis. 
-In sem ut sem molestie eu blandit. In metus ac ut 
-aliquet. Odio dis felis donec ullamcorper faucibus rhoncus.
- Nulla lacus risus in consequat. Faucibus at sed gravida 
- varius. Placerat posuere consectetur tellus sit etiam 
- proin mattis enim cursus. Leo fusce nunc nibh posuere 
- nullam turpis donec faucibus. Faucibus 
-tellus ac parturient massa nisi scelerisque cursus.
+At Scrub & Mob, we prioritize excellence and cleanliness in every service we provide.
+ Our experienced team is dedicated to transforming your spaces with precision and care.
+ We focus on delivering thorough cleaning solutions that not only meet but exceed expectations. 
+ Whether it’s residential or commercial, we ensure each area shines with attention to detail and
+ professionalism. Our commitment to quality, efficiency, 
+and customer satisfaction makes us the trusted choice for all your cleaning needs.
 `
 export const team = [
   {

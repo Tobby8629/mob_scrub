@@ -29,13 +29,11 @@ const Comment = () => {
           <SwiperSlide key={(e, index.toString())} className={style.card} >
             <span>{svg.quotes}</span> 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Consectetur provident dolore eos vel quam tenetur
-                molestias, alias exercitationem voluptatibus 
-                laboriosam quasi, velit dolores? Voluptates velit
-                deserunt, iure tempore alias expedita?
+            The team was professional, efficient, and exceeded my expectations.
+             I felt confident and secure throughout the process. 
+             Highly recommend them to anyone looking for quality and reliability.  
             </p>
-            <h4>John Doe</h4>
+            <h4>Aishat Bakare</h4>
             <svg width="89" height="16" viewBox="0 0 89 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.5 0L10.2961 5.52786H16.1085L11.4062 8.94427L13.2023 14.4721L8.5 11.0557L3.79772 14.4721L5.59383 8.94427L0.891548 5.52786H6.70389L8.5 0Z" fill="#F8E31A"/>
               <path d="M26.5 0L28.2961 5.52786H34.1085L29.4062 8.94427L31.2023 14.4721L26.5 11.0557L21.7977 14.4721L23.5938 8.94427L18.8915 5.52786H24.7039L26.5 0Z" fill="#F8E31A"/>

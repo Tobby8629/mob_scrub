@@ -8,26 +8,42 @@ function Faq() {
      id: 1,
      open: false,
      question: "How do you train your cleaning staff ?",
-     answer:"Lorem ipsum dolor sit amet. Aut deleniti ducimus qui possimus internos et officiis harum eos repellendus vero. Vel dolorum numquam et architecto aspernatur in maxime sequi ex.",
-     },
+     answer:`
+       We train our cleaning staff through a combination of hands-on experience and detailed instruction, 
+       emphasizing attention to detail, safety protocols, and effective cleaning techniques. 
+       Regular training updates ensure they stay informed about industry 
+       standards and deliver consistent, high-quality service.
+     `},
      {
       id: 2,
       open: false,
       question: "How do you ensure quality control ?",
-      answer:"Lorem ipsum dolor sit amet. Aut deleniti ducimus qui possimus internos et officiis harum eos repellendus vero. Vel dolorum numquam et architecto aspernatur in maxime sequi ex. ",
+      answer:`
+        We ensure quality control through regular inspections, feedback from clients, and performance evaluations.
+         Our supervisors conduct routine checks to maintain high standards, 
+        while ongoing training and clear communication help address any issues promptly, ensuring consistent service excellence.
+      `,
     },
     {
       id: 3,
       open: false,
       question: "How do you handle customer complaints ?",
-      answer:"Lorem ipsum dolor sit amet. Aut deleniti ducimus qui possimus internos et officiis harum eos repellendus vero. Vel dolorum numquam et architecto aspernatur in maxime sequi ex. ",
+      answer: `
+        We handle customer complaints by listening attentively, empathizing with their concerns, 
+        and taking prompt action to resolve the issue. Our team investigates the situation, 
+        provides solutions, and ensures that necessary improvements are made to prevent future occurrences, prioritizing customer satisfaction.
+      `,
     },
     {
       id: 4,
       open: false,
       question: "How do you handle customer complaints ?",
-      answer:"Lorem ipsum dolor sit amet. Aut deleniti ducimus qui possimus internos et officiis harum eos repellendus vero. Vel dolorum numquam et architecto aspernatur in maxime sequi ex.",
-    },
+      answer: `
+      We handle customer complaints by listening attentively, empathizing with their concerns, 
+      and taking prompt action to resolve the issue. Our team investigates the situation, 
+      provides solutions, and ensures that necessary improvements are made to prevent future occurrences, prioritizing customer satisfaction.
+    `,
+    }
 
  ]
 

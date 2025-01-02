@@ -20,14 +20,19 @@ function Footer() {
         </div>
         <div className={`${style.address} ${style.chi}`}>
             <h3>office address</h3>
-            <p>Lorem ipsum dolor sit amet consectetur. Felis maecenas libero ipsum egestas sagittis placerat ut.</p>
+            <p>
+              4567 Elm Street,
+              Tech Hub, Manchester,
+              M1 2AB,
+              United kingdom
+            </p>
         </div>
         <div className={`${style.cont} ${style.chi}`}>
             <h3>contact us</h3>
             <div className={style.conts}>
               <p>
                 {svg.mail}
-                <span>example@gmail.com</span>
+                <span>scrub&mob@gmail.com</span>
               </p>
               <p>
                  {svg.footer_phone}

@@ -6,22 +6,36 @@ function Reasons() {
     {
       id:1,
       title: "transparent pricing",
-      text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+      text: `We prioritize clear, straightforward pricing to build 
+      trust and eliminate hidden fees. Our detailed cost breakdown ensures transparency, 
+      empowering you to make informed decisions confidently while 
+      staying within budget. Your trust is our commitment.`
   },
   {
     id:2,
     title: "Highly trained employees",
-    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
-  },
+    text: `
+    Our skilled professionals combine expertise, dedication, 
+    and excellence in every task. With ongoing training, they meet industry standards, 
+    delivering top-quality solutions and ensuring your success remains our priority through exceptional results.
+    ` },
   {
     id:3,
     title: "we bring our own supplies",
-    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+    text: `
+  We bring our own supplies to ensure readiness and self-reliance, 
+  empowering us to handle any situation. 
+  This proactive approach fosters adaptability, resilience, and confidence in achieving goals seamlessly and independently.
+      `  
   },
   {
     id:4,
     title: "100% safe & secure",
-    text: "Lorem ipsum dolor sit amet consectetur. Nisl tellus nullam lacus nec aliquam cras in. Proin viverra fermentum urna urna quis tincidunt. Ut odio quam vel vel tincidunt." 
+    text: `
+      Experience peace of mind with our reliable solutions. 
+      Designed to protect and support you, we prioritize safety 
+      and ensure a seamless, trustworthy experience every step of the way
+    ` 
   }
  ]    
   return (
