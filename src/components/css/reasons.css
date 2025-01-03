@@ -10,11 +10,9 @@
   font-family: var(--ranade);
   font-weight: 600;
   line-height: 38.36px;
-  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-
 
 .reason p {
   text-align: center;
@@ -45,11 +43,10 @@
   border-radius: 7px;
 }
 
-.each_reason xh4 {
+.each_reason h4 {
   margin-bottom: 12px;
   text-transform: capitalize;
 }
-
 
 .reason_image img {
   width: 100%;
@@ -120,6 +117,7 @@
   .reason .top {
     font-size: 20px;
     line-height: 33px;
+    margin: 20px auto;
   }
 
   .reason h3 {
@@ -127,10 +125,6 @@
     font-size: 32px;
     line-height: 44px;
     color: #523636;
-  }
-
-  .reason .top {
-    margin: 20px auto;
   }
 
   .reason_image {
