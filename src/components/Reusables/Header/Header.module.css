@@ -25,16 +25,15 @@
   line-height: 26px;
 }
 
-
 .image {
-  margin: 1.3rem 0;;
+  margin: 1.3rem 0;
 }
 
 .image img {
   width: 100%;
 }
 
- ul li {
+ul li {
   font-weight: 200;
   font-size: 16px;
   line-height: 26px;
@@ -52,10 +51,8 @@
 }
 
 .hex {
-  color: var(--text-pry)
+  color: var(--text-pry);
 }
-
-
 
 @media (min-width: 768px) {
   .pageTitle {
@@ -117,15 +114,11 @@
   .header h3 {
     font-size: 25px;
   }
-
-
 }
 
-
 @media (min-width: 1000px) {
-
   .headerWrapper {
-    min-height: 50vh;
+    min-height: 70vh;
     padding-left: 3rem;
   }
 
@@ -136,19 +129,21 @@
   .header p {
     font-size: 18px;
     line-height: 28px;
+  }
 
+  .btn {
+    width: 70%;
   }
 }
 
 @media (min-width: 1280px) {
-
   .headerWrapper {
     padding-left: 5rem;
   }
-  
+
   .achieve li {
     font-size: 16px;
-    margin: 2rem 0 ;
+    margin: 2rem 0;
     margin-right: 2.5rem;
   }
 
@@ -161,15 +156,18 @@
     font-size: 22px;
   }
 
+  .btn {
+    width: 100%;
+  }
 }
 
-@media (min-width:1378px) {
+@media (min-width: 1378px) {
   .headerWrapper {
     padding-left: 9rem;
   }
 
   .home .header_text {
-    width: 45%;
+    width: 40%;
   }
 
   .image {
@@ -180,6 +178,6 @@
   .header_text p {
     font-size: 20px;
     line-height: 37px;
+    margin: 1.5rem 0;
   }
-
 }

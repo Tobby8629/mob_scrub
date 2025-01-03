@@ -30,7 +30,6 @@
   opacity: 0.6;
   font-size: 14px;
   font-family: var(--ranade);
-  
 }
 
 .Footer .one p {
@@ -61,25 +60,25 @@
   margin: 1rem 0;
 }
 
-.Footer .one .soc span {
-  margin-right: 10px;
-}
-
 .conts p span {
   margin-left: 10px;
   overflow: auto;
   word-wrap: break-word;
 }
 
+.Footer .one .soc span {
+  margin-right: 10px;
+}
+
 .down .privacy {
   border-top: 2px solid rgba(170, 170, 170, 0.396);
   margin-top: 2.5rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   font-family: var(--ranade);
 }
 
-.down .privacy .pri,
-.privacy .pri {
+.privacy .pri,
+.down .privacy .pri {
   display: flex;
   align-items: center;
   margin: 1rem 0;
@@ -89,8 +88,8 @@
   font-family: var(--ranade);
 }
 
-.down .privacy .pri p:last-child,
-.privacy .pri p:last-child {
+.privacy .pri p:last-child,
+.down .privacy .pri p:last-child {
   margin-left: 20px;
 }
 
@@ -174,7 +173,6 @@
     width: 15%;
   }
 }
-
 
 @media (min-width: 1378px) {
   .Footer {

@@ -7,7 +7,6 @@
   padding: 0;
 }
 
-
 .price header a {
   font-size: 18px;
   line-height: 25px;
@@ -16,6 +15,7 @@
   background: #f8ba3f;
   border: 1px solid #f8ba3f;
   border-radius: 8px;
+
   /* font-family: 'Ubuntu', sans-serif; */
   padding: 1rem 1.5rem;
 }
@@ -29,10 +29,8 @@
   padding-bottom: 0;
 }
 
-
 @media (min-width: 768px) {
-
-  .price header div:first-child  {
+  .price header div:first-child {
     width: calc(97% - 270px);
     margin-right: 2.5rem;
   }
@@ -59,18 +57,16 @@
     padding-top: 8rem;
   }
 
-  
   .price .image {
     width: 320px;
     height: 320px;
     margin-right: 3rem;
   }
 
-  .price header div:first-child  {
+  .price header div:first-child {
     width: calc(85% - 320px);
     margin-right: 2.5rem;
   }
-
 }
 
 @media (min-width: 1280px) {
@@ -80,7 +76,7 @@
     margin-right: 5rem;
   }
 
-  .price header div:first-child  {
+  .price header div:first-child {
     width: calc(80% - 350px);
     margin-right: 2.5rem;
   }
@@ -90,8 +86,8 @@
   }
 }
 
-@media (min-width:1378px) {
-  .price header div:first-child  {
+@media (min-width: 1378px) {
+  .price header div:first-child {
     width: calc(78% - 500px);
     margin-right: 2.5rem;
   }

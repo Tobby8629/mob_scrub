@@ -19,34 +19,50 @@
 
 .contact header h3 {
   font-family: var(--ranade);
-font-size: 32px;
-font-weight: 500;
-line-height: 43.84px;
-text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 43.84px;
+  text-align: center;
+}
 
+.contact_detail h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 22px;
+  color: #523636;
+}
+
+.contact_detail p,
+.contact_detail h4 {
+  text-align: left;
+}
+
+.contact_detail p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: rgba(82, 54, 54, 0.85);
 }
 
 .contact header p {
-font-family: Manrope;
-font-size: 16px;
-font-weight: 300;
-line-height: 26px;
-letter-spacing: 0.04em;
-text-align: center;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .contact header h4 {
-  color:#f8ba3f;;
-font-family: var(--ranade);
-font-size: 15px;
-font-weight: 500;
-line-height: 16.44px;
-letter-spacing: 0.02em;
-text-align: center;
-
+  color: #f8ba3f;
+  font-family: var(--ranade);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.44px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .contact form {
@@ -116,26 +132,6 @@ text-align: center;
   left: -20px;
 }
 
-.contact_detail p,
-.contact_detail h4 {
-  text-align: left;
-}
-
-.contact_detail h4 {
-  font-size: 16px;
-  text-transform: capitalize;
-  line-height: 22px;
-  color: #523636;
-}
-
-.contact_detail p {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 25px;
-  letter-spacing: 0.04em;
-  color: rgba(82, 54, 54, 0.85);
-}
-
 .c_det {
   margin: 1.2rem 0;
 }
@@ -180,7 +176,7 @@ text-align: center;
 
 @media (min-width: 768px) {
   .mobform_input {
-   display: none;
+    display: none;
   }
 
   .contact header {
@@ -262,24 +258,21 @@ text-align: center;
 
   .contact header {
     min-height: calc(40vh - 8rem);
-   }
+  }
 }
 
-@media (min-width:1378px) {
-   .contact header {
+@media (min-width: 1378px) {
+  .contact header {
     padding: 0 9rem;
-   }
+    min-height: calc(40vh - 8rem);
+  }
 
-   .inverse form {
+  .inverse form {
     width: 45%;
   }
 
-   .contact .inverse {
+  .contact .inverse {
     padding: 0 11rem;
     padding-bottom: 5rem;
-   }
-
-   .contact header {
-    min-height: calc(40vh - 8rem);
-   }
+  }
 }

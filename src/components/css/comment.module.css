@@ -1,33 +1,32 @@
 .comment {
-    padding: 0 1rem;
-    background: 
-      linear-gradient(#ebdad1c6, #EBDAD1c6),
-      url('../asset/comment.jpg');
-    background-size: cover;
-    background-position: center;
-    color: var(--text-pry);
-    margin-top: 3.5rem;
-  }
-  
-  .comment h5 {
-    font-family: var(--ranade);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 43.84px;
-    text-decoration-skip-ink: none;
-    color: var(--header);
-    padding: 2rem 0;
-  }
+  padding: 0 1rem;
+  background:
+    linear-gradient(#ebdad1c6, #ebdad1c6),
+    url('../asset/comment.jpg');
+  background-size: cover;
+  background-position: center;
+  color: var(--text-pry);
+  margin-top: 3.5rem;
+}
 
-  .card {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
-  }
+.comment h5 {
+  font-family: var(--ranade);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 43.84px;
+  text-decoration-skip-ink: none;
+  color: var(--header);
+  padding: 2rem 0;
+}
 
-  .card h4 {
-    font-family: var(--ranade);
-  font-family: Ranade;
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.card h4 {
+  font-family: var(--ranade);
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 500;
@@ -35,81 +34,77 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  }
+}
 
-  .card p {
-    line-height: 26px;
-    font-weight: 200;
-    font-size: 16px;
-    margin: 1.5rem 0;
+.card p {
+  line-height: 26px;
+  font-weight: 200;
+  font-size: 16px;
+  margin: 1.5rem 0;
+}
+
+.swiper_ctrl {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.swiper_ctrl button {
+  margin-right: 15px;
+  margin-top: 1rem;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+@media (min-width: 768px) {
+  .comment {
+    position: relative;
+    padding: 3rem 1rem;
+    padding-bottom: 7rem;
   }
 
   .swiper_ctrl {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
+    position: absolute;
+    right: 10px;
+    padding: 0;
+    top: 3rem;
   }
-  
-  .swiper_ctrl button {
-    margin-right: 15px;
-    margin-top: 1rem;
-    border: 0;
-    outline: none;
-    background: transparent;
+}
+
+@media (min-width: 1024px) {
+  .comment h5 {
+    font-size: 27px;
   }
+}
 
-  @media (min-width: 768px) {
-    .comment {
-      position: relative;
-      padding: 3rem 1rem;
-      padding-bottom: 7rem;
-    }
-
-    .swiper_ctrl {
-      position: absolute;
-      top: 0;
-      right: 10px;
-      padding: 0;
-      top: 3rem
-    }
-
+@media (min-width: 1280px) {
+  .comment h4 {
+    font-size: 18px;
+    margin: 5px auto;
   }
 
-  @media (min-width: 1024px) {
-    .comment h5 {
-      font-size: 27px;
-    }  
+  .comment h5 {
+    font-size: 30px;
   }
-  
-  @media (min-width: 1280px) {
-    .comment h4 {
-      font-size: 18px;
-      margin: 5px auto;
-    }
 
-    .comment h5 {
-      font-size: 30px;
-    }
-  
-    .comment {
-      padding: 2.5rem 5%;
-    }
-
-    .swiper_ctrl {
-      top: 1.7rem
-    }
-
-    
+  .comment {
+    padding: 2.5rem 5%;
   }
-  
-  @media (min-width: 1410px) {
-    /* .comment {
+
+  .swiper_ctrl {
+    top: 1.7rem;
+  }
+}
+
+@media (min-width: 1410px) {
+  /* .comment {
       padding: 2rem 5%;
     } */
-  }
-  
-  @media (min-width: 1450px) {
-    /* .comment {
+}
+
+@media (min-width: 1450px) {
+  /* .comment {
       padding: 1rem 8%;
     } */
-  }
+}

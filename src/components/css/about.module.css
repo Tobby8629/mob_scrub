@@ -4,14 +4,14 @@
   overflow: hidden;
 }
 
-.about header{
+.about header {
   padding: 0;
   background-color: transparent;
 }
 
 .eclipse {
   position: absolute;
-  z-index: -99; 
+  z-index: -99;
   bottom: -130px;
   right: -60px;
 }
@@ -99,7 +99,7 @@
 
   .eclipse {
     position: absolute;
-    z-index: -99; 
+    z-index: -99;
     bottom: -150px;
     right: -150px;
     width: 220px;
@@ -110,19 +110,17 @@
     padding: 0 2rem;
   }
 
-
   .team {
     display: flex;
     justify-content: center;
-    
+
     /* padding: 1rem 4rem; */
   }
 
   .team .image {
     height: 200px;
     width: 100%;
-   }
- 
+  }
 
   .each_team {
     width: 30%;
@@ -135,10 +133,9 @@
 }
 
 @media (min-width: 1000px) {
-
   .eclipse {
     position: absolute;
-    z-index: -99; 
+    z-index: -99;
     bottom: -110px;
     right: -140px;
     width: 265px;
@@ -149,7 +146,7 @@
   }
 
   .teamWrapper h3 {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
 
   .team .image {
@@ -180,14 +177,13 @@
 }
 
 @media (min-width: 1280px) {
- 
   .about_header {
     width: 47%;
   }
 
   .image {
     width: 423px;
-    margin-right: 5rem
+    margin-right: 5rem;
   }
 
   .about header div:first-child {
@@ -197,7 +193,7 @@
 
   .eclipse {
     position: absolute;
-    z-index: -99; 
+    z-index: -99;
     bottom: -100px;
     right: -130px;
     width: 270px;
@@ -214,5 +210,3 @@
     padding: 0 8rem;
   }
 }
-
-

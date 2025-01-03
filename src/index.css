@@ -10,12 +10,11 @@
 :root {
   --text-pry: #8b6060d0;
   --text-p: rgba(82, 54, 54, 0.85);
-  --text-sec: #EBDAD1;
-  --header: rgba(82, 54, 54, 1);  
-  --ranade: "ranade", sans-serif; 
+  --text-sec: #ebdad1;
+  --header: rgba(82, 54, 54, 1);
+  --ranade: "ranade", sans-serif;
   --pry-font: 'Manrope', sans-serif;
 }
-
 
 * {
   margin: 0;
@@ -69,7 +68,7 @@ nav {
   transition: 0.3s linear;
 }
 
- p {
+p {
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -92,7 +91,6 @@ nav {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
 .hide {
@@ -118,7 +116,6 @@ nav {
 .menu .get_price {
   display: flex;
   flex-direction: column;
-  
 }
 
 .menu .get_price a:first-child,
@@ -241,7 +238,6 @@ section h3 {
     color: #885a5a;
     margin-left: 10px;
   }
-
 }
 
 @media (min-width: 1000px) {
@@ -260,10 +256,8 @@ section h3 {
   }
 }
 
-
-@media (min-width:1378px) {
+@media (min-width: 1378px) {
   nav {
     padding: 1rem 9rem;
   }
-  
 }

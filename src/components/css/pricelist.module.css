@@ -38,18 +38,15 @@ td:first-child {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  
 }
 
 .pricelist tbody tr:nth-child(1) {
   background-color: rgba(246, 246, 246, 1);
-
 }
 
 .pricelist .solid {
   font-weight: 500;
   font-family: var(--header);
-
 }
 
 .pricelist table td {
@@ -108,15 +105,14 @@ td:first-child {
 }
 
 .small {
-font-family: var(--pry-font);
-font-size: 13px;
-text-transform: capitalize;
-font-weight: 400;
-line-height: 24.66px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-
+  font-family: var(--pry-font);
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 24.66px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .price_desktop {
@@ -208,7 +204,6 @@ text-decoration-skip-ink: none;
 .total {
   font-family: var(--ranade);
 }
-
 
 @media (min-width: 768px) {
   .sum_h3 {

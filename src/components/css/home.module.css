@@ -3,7 +3,7 @@
 }
 
 @media (min-width: 768px) {
-  .home header{
+  .home header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -42,7 +42,6 @@
 }
 
 @media (min-width: 1000px) {
-
   /* .btn div {
     width: 80%;
   } */
@@ -76,7 +75,6 @@
 }
 
 @media (min-width: 1280px) {
-  
   /* .home .header_text .desktop {
     margin-top: 1rem;
   } */
@@ -99,7 +97,7 @@
   }
 }
 
-@media (min-width:1378px) {
+@media (min-width: 1378px) {
   /* .headerWrapper {
     padding-left: 9rem;
   }
@@ -112,7 +110,8 @@
     margin-right: 4rem;
     height: 100%;
   } */
-/* 
+
+  /*
   .btn {
     margin: 1.5rem 0;
   } */
